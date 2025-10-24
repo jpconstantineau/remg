@@ -1,0 +1,37 @@
+[
+  {
+    "Id": "e001",
+    "errorNumber": "1001",
+    "errorText": "NullReferenceException: Object reference not set to an instance of an object.",
+    "reference": "https://docs.example.com/errors/1001",
+    "source": "Application.Core"
+  },
+  {
+    "Id": "e002",
+    "errorNumber": "2002",
+    "errorText": "TimeoutError: The operation timed out after waiting for response from service.",
+    "reference": "https://docs.example.com/errors/2002",
+    "source": "Network.Layer"
+  },
+  {
+    "Id": "e003",
+    "errorNumber": "3003",
+    "errorText": "ValidationError: Input did not pass schema validation - missing required field 'email'.",
+    "reference": "https://docs.example.com/errors/3003",
+    "source": "API.Validator"
+  },
+  {
+    "Id": "e004",
+    "errorNumber": "4004",
+    "errorText": "DatabaseError: Unique constraint violation on table 'users' (username).",
+    "reference": "https://docs.example.com/errors/4004",
+    "source": "Database.Module"
+  },
+  {
+    "Id": "e005",
+    "errorNumber": "5005",
+    "errorText": "IOError: Failed to write to disk. Disk quota exceeded.",
+    "reference": "https://docs.example.com/errors/5005",
+    "source": "Storage.Manager"
+  }
+]
