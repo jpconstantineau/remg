@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Random Error Generator</title>
+
+  <!-- Bootstrap 5 CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-PLACEHOLDER" crossorigin="anonymous">
+
+  <style>
+    /* Small custom styles */
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background-color: #f8f9fa;
+    }
+    .card {
+      max-width: 900px;
+      margin: 1rem auto;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      margin-bottom: 0;
+    }
+    .muted small {
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="card shadow">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start mb-3">
+          <div>
+            <h5 class="card-title mb-1">Random Error Generator</h5>
+            <p class="card-subtitle text-muted small">A randomly selected error message from errors.json</p>
+          </div>
+          <div class="text-end">
+            <div class="muted"><small id="auto-refresh-note">Auto-refresh in 60s</small></div>
+            <div class="mt-2">
+              <button id="tryAgainBtn" class="btn btn-primary btn-sm">Try Again</button>
+              <button id="copyBtn" class="btn btn-outline-secondary btn-sm">Copy</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="errorCard" class="border rounded p-3 bg-white">
+          <div class="d-flex justify-content-between align-items-start mb-2">
+            <div>
+              <h6 id="errorTitle" class="mb-1">Loading…</h6>
+              <div class="muted"><small id="errorId">ID: —</small></div>
+            </div>
+            <div class="text-end">
+              <span id="errorNumber" class="badge bg-danger">#—</span>
+            </div>
+          </div>
+
+          <pre id="errorText" class="mb-2">Fetching errors...</pre>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <small class="text-muted">Reference: <span id="errorReference">—</span></small><br>
+              <small class="text-muted">Source: <span id="errorSource">—</span></small>
+            </div>
+            <div class="text-end">
+              <small class="text-muted">Selected at <span id="selectedAt">—</span></small>
+            </div>
+          </div>
+        </div>
+
+        <div id="fetchErrorAlert" class="alert alert-warning mt-3 d-none" role="alert">
+          Could not load errors.json. Check that the file is present and the path is correct.
+        </div>
+
+      </div>
+      <div class="card-footer text-muted small">
+        Static site — drop into a GitHub Pages repo. Data file: <code>errors.json</code>.
+      </div>
+    </div>
+  </main>
+
+  <!-- Bootstrap 5 JS + dependencies (optional for some components) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-PLACEHOLDER" crossorigin="anonymous"></script>
+
+  <script>
+    // Path to the JSON file (relative)
+    const ERRORS_JSON = 'errors.json';
+
+    // UI elements
+    const errorTitle = document.getElementById('errorTitle');
+    const errorId = document.getElementById('errorId');
+    const errorNumber = document.getElementById('errorNumber');
+    const errorText = document.getElementById('errorText');
+    const errorReference = document.getElementById('errorReference');
+    const errorSource = document.getElementById('errorSource');
+    const selectedAt = document.getElementById('selectedAt');
+    const autoRefreshNote = document.getElementById('auto-refresh-note');
+    const fetchErrorAlert = document.getElementById('fetchErrorAlert');
+
+    const tryAgainBtn = document.getElementById('tryAgainBtn');
+    const copyBtn = document.getElementById('copyBtn');
+
+    let errorsArray = [];
+    let reloadTimeoutId = null;
+    const RELOAD_MS = 60 * 1000; // 1 minute
+
+    // Fetch the JSON file once on load, then pick random objects locally.
+    async function loadErrorsFile() {
+      try {
+        const resp = await fetch(ERRORS_JSON, { cache: "no-store" });
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const data = await resp.json();
+        if (!Array.isArray(data)) throw new Error('JSON is not an array');
+        errorsArray = data;
+        fetchErrorAlert.classList.add('d-none');
+        pickAndShowRandom();
+      } catch (err) {
+        console.error('Failed to load errors.json:', err);
+        fetchErrorAlert.classList.remove('d-none');
+        showFetchError(err);
+      }
+    }
+
+    function showFetchError(err) {
+      errorTitle.textContent = 'Failed to load data';
+      errorId.textContent = 'ID: —';
+      errorNumber.textContent = '#—';
+      errorText.textContent = 'Could not fetch errors.json. ' + (err && err.message ? err.message : '');
+      errorReference.textContent = '—';
+      errorSource.textContent = '—';
+      selectedAt.textContent = new Date().toLocaleString();
+    }
+
+    function pickAndShowRandom() {
+      if (!Array.isArray(errorsArray) || errorsArray.length === 0) {
+        errorTitle.textContent = 'No errors available';
+        errorText.textContent = 'The errors.json file is empty or malformed.';
+        return;
+      }
+      const idx = Math.floor(Math.random() * errorsArray.length);
+      const obj = errorsArray[idx];
+
+      // Support both capitalized keys and camelCase by falling back
+      const Id = obj.Id ?? obj.id ?? obj.ID ?? null;
+      const errorNum = obj['error number'] ?? obj.errorNumber ?? obj.error_number ?? obj.errorNum ?? '—';
+      const text = obj['error text'] ?? obj.errorText ?? obj.text ?? obj.message ?? 'No error text';
+      const reference = obj.reference ?? obj.Reference ?? '—';
+      const source = obj.source ?? obj.Source ?? '—';
+
+      errorTitle.textContent = text.length > 80 ? text.slice(0, 80) + '…' : text;
+      errorId.textContent = 'ID: ' + (Id ?? '—');
+      errorNumber.textContent = '#' + (errorNum ?? '—');
+      errorText.textContent = text;
+      errorReference.textContent = reference;
+      errorSource.textContent = source;
+      selectedAt.textContent = new Date().toLocaleString();
+
+      // (Re)start the auto-reload countdown
+      startAutoReloadCountdown();
+    }
+
+    function startAutoReloadCountdown() {
+      // Clear previous timer if any
+      if (reloadTimeoutId) clearTimeout(reloadTimeoutId);
+
+      // Display a countdown (optional)
+      const end = Date.now() + RELOAD_MS;
+      updateCountdownDisplay(Math.ceil((end - Date.now()) / 1000));
+      const countdownInterval = setInterval(() => {
+        const secsLeft = Math.ceil((end - Date.now()) / 1000);
+        if (secsLeft <= 0) {
+          clearInterval(countdownInterval);
+        }
+        updateCountdownDisplay(Math.max(secsLeft, 0));
+      }, 700);
+
+      // Final reload after RELOAD_MS
+      reloadTimeoutId = setTimeout(() => {
+        // Reload the entire page (per requirement)
+        location.reload();
+      }, RELOAD_MS);
+    }
+
+    function updateCountdownDisplay(seconds) {
+      autoRefreshNote.textContent = 'Auto-refresh in ' + seconds + 's';
+    }
+
+    // Try Again button: pick and show a new random object (without reloading page)
+    tryAgainBtn.addEventListener('click', () => {
+      pickAndShowRandom();
+    });
+
+    // Copy button: copies the displayed error text (and metadata) to clipboard
+    copyBtn.addEventListener('click', async () => {
+      const payload = [
+        errorText.textContent,
+        errorId.textContent,
+        errorNumber.textContent,
+        'Reference: ' + errorReference.textContent,
+        'Source: ' + errorSource.textContent,
+        'Selected at: ' + selectedAt.textContent
+      ].join('\n');
+      try {
+        await navigator.clipboard.writeText(payload);
+        copyBtn.textContent = 'Copied!';
+        setTimeout(() => (copyBtn.textContent = 'Copy'), 1500);
+      } catch (e) {
+        console.warn('Clipboard write failed', e);
+        copyBtn.textContent = 'Copy Failed';
+        setTimeout(() => (copyBtn.textContent = 'Copy'), 1500);
+      }
+    });
+
+    // Kick off
+    window.addEventListener('load', () => {
+      loadErrorsFile();
+    });
+  </script>
+</body>
+</html>
