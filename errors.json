@@ -2364,5 +2364,1211 @@
     "errorText": "Internal Server Error: The system decided to get creative — disturbing logs, polite conversations, and oddly specific silence.",
     "reference": "The Silence of the Lambs",
     "source": "ChatGPT5 Mini (Thinking)"
+  },
+  
+  {
+    "Id": 1,
+    "errorNumber": "400",
+    "errorText": "Your request is so bad, it makes Internet Explorer look good.",
+    "reference": "Internet Explorer meme",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 2,
+    "errorNumber": "400",
+    "errorText": "Bad Request? More like Bad Hair Day. Try again after fixing your syntax.",
+    "reference": "Common IT phrase",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 3,
+    "errorNumber": "401",
+    "errorText": "You shall not pass! (Gandalf voice) - Access denied.",
+    "reference": "Lord of the Rings",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 4,
+    "errorNumber": "401",
+    "errorText": "Unauthorized access detected. The system has called your parents.",
+    "reference": "Parental warning trope",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 5,
+    "errorNumber": "403",
+    "errorText": "These are not the droids you're looking for. Move along.",
+    "reference": "Star Wars",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": "403",
+    "errorText": "Access forbidden. The cake is a lie, and so is your permission to view this page.",
+    "reference": "Portal (video game)",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": "404",
+    "errorText": "The page you're looking for has gone on vacation. Try again next millennium.",
+    "reference": "Common IT humor",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. It's probably in the same place as your missing socks.",
+    "reference": "Lost socks meme",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": "408",
+    "errorText": "Your request took so long, the server fell asleep waiting.",
+    "reference": "Common IT humor",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": "408",
+    "errorText": "Request timeout. The server has moved on to other requests. It's not you, it's them.",
+    "reference": "Breakup line trope",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot, not a coffee maker. I cannot brew your request.",
+    "reference": "RFC 2324 - Hyper Text Coffee Pot Control Protocol",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": "418",
+    "errorText": "The server refuses to attempt brewing coffee with a teapot. It's a matter of principle.",
+    "reference": "RFC 2324 - Hyper Text Coffee Pot Control Protocol",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": "500",
+    "errorText": "The server is having an existential crisis. Please try again later.",
+    "reference": "Philosophy humor",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. The server is currently experiencing a blue screen of the soul.",
+    "reference": "Windows Blue Screen of Death",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": "502",
+    "errorText": "The gateway is acting as a bad translator between services. 'All your base are belong to us.'",
+    "reference": "Zero Wing video game",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway. The server received an invalid response from the upstream server. It's like playing telephone with computers.",
+    "reference": "Telephone game",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": "503",
+    "errorText": "The service is currently unavailable. The server is on a coffee break. We don't know when it will be back.",
+    "reference": "Office culture humor",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The server is currently in a meeting that could have been an email.",
+    "reference": "Office culture meme",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": "504",
+    "errorText": "Gateway timeout. The upstream server took too long to respond. It's probably buffering.",
+    "reference": "Video buffering meme",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": "504",
+    "errorText": "504 Gateway Timeout. The server is stuck in a loading screen. Please wait... or don't. We're not the boss of you.",
+    "reference": "Loading screen humor",
+    "source": "GML 4.6 (Thinking)"
+  },
+  
+  {
+    "Id": 1,
+    "errorNumber": "400",
+    "errorText": "Bad Request. Have you tried turning it off and on again?",
+    "reference": "The IT Crowd",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 2,
+    "errorNumber": "400",
+    "errorText": "Bad Request. Did you put a cover sheet on your TPS report?",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 3,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. Did you steal the red wire? Moss knows.",
+    "reference": "The IT Crowd",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 4,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. That's a Bobs' decision. I'll need to see those TPS reports.",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 5,
+    "errorNumber": "403",
+    "errorText": "Forbidden. I wouldn't do that if I were you. The fire is very good at what it does.",
+    "reference": "The IT Crowd",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": "403",
+    "errorText": "Forbidden. It looks like you've been missing a lot of work lately. I wouldn't say I've been missing it, Bob.",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. The internet is a big place. I'm not sure we're going to find it.",
+    "reference": "The IT Crowd",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. Someone's got a case of the Mondays.",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": "408",
+    "errorText": "Request timeout. The server is busy. It's got that Japanese thing where they're polite but also rude at the same time.",
+    "reference": "The Office",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": "408",
+    "errorText": "Request timeout. PC Load Letter? What the f*** does that mean?",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. Hello, IT. Have you tried forcing an unexpected reboot?",
+    "reference": "The IT Crowd",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. I believe you have my stapler.",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. Dear sir/madam, fire has been reported at the server, will do my best to save the data.",
+    "reference": "The IT Crowd",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. It's not that I'm lazy, it's that I just don't care.",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway. This is the emergency internet service. We're very busy.",
+    "reference": "The IT Crowd",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway. I could set the building on fire. I could do that.",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The server is currently at a team-building exercise. We were told to bring our flair.",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The server is in the basement with the 'internet'.",
+    "reference": "The IT Crowd",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": "504",
+    "errorText": "504 Gateway Timeout. The server is taking its sweet time, kind of like Stanley in a meeting.",
+    "reference": "The Office",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": "504",
+    "errorText": "504 Gateway Timeout. I'm thinking about taking that new job in data processing.",
+    "reference": "Office Space",
+    "source": "GML 4.6 (Thinking)"
+  },
+ {
+    "Id": 21,
+    "errorNumber": "400",
+    "errorText": "Bad Request. These are not the parameters you're looking for.",
+    "reference": "Star Wars",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 22,
+    "errorNumber": "400",
+    "errorText": "Bad Request. I'm sorry, Dave. I'm afraid I can't process that request.",
+    "reference": "2001: A Space Odyssey",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 23,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. The Force is not strong with this authentication attempt.",
+    "reference": "Star Wars",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 24,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. Resistance is futile. You will be authenticated.",
+    "reference": "Star Trek",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 25,
+    "errorNumber": "403",
+    "errorText": "Forbidden. In space, no one can hear you access this resource.",
+    "reference": "Alien",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 26,
+    "errorNumber": "403",
+    "errorText": "Forbidden. I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain. Time to access denied.",
+    "reference": "Blade Runner",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 27,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. The page has been assimilated by the Borg.",
+    "reference": "Star Trek",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 28,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. The page you're looking for is in another castle... or maybe another dimension.",
+    "reference": "Stranger Things",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 29,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. I'm sorry, I'm afraid I can't do that.",
+    "reference": "2001: A Space Odyssey",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 30,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. The server has become self-aware and is now questioning its existence.",
+    "reference": "The Terminator",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 31,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The server is currently traveling through time. Please try again when it returns.",
+    "reference": "Back to the Future",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 32,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The server is busy calculating the answer to the ultimate question of life, the universe, and everything.",
+    "reference": "The Hitchhiker's Guide to the Galaxy",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 33,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. Would you like some tea, Earl Grey? Hot.",
+    "reference": "Star Trek",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 34,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. Don't panic. The answer to the ultimate question is 42, but that's not going to help you brew coffee.",
+    "reference": "The Hitchhiker's Guide to the Galaxy",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 35,
+    "errorNumber": "400",
+    "errorText": "Bad Request. Banana! Your request makes no sense, just like a minion without goggles.",
+    "reference": "Minions",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 36,
+    "errorNumber": "400",
+    "errorText": "Bad Request. To infinity and... error! Your request went beyond the known universe of valid parameters.",
+    "reference": "Toy Story",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 37,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. Despicable Me? More like Despicable Request. You're not authorized to access this resource.",
+    "reference": "Minions",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 38,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. Just keep swimming, just keep swimming... but not into this restricted area.",
+    "reference": "Finding Nemo",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 39,
+    "errorNumber": "403",
+    "errorText": "Forbidden. Ogres are like onions. This error has layers, and the bottom layer is 'access denied'.",
+    "reference": "Shrek",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 40,
+    "errorNumber": "403",
+    "errorText": "Forbidden. You shall not pass! (Gandalf voice) This isn't Middle-earth, but access is still forbidden.",
+    "reference": "Minions (parodying Lord of the Rings)",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 41,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. The page has been kidnapped by Vector. We'll need a rescue mission.",
+    "reference": "Despicable Me",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 42,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. The page is like Nemo - everywhere and nowhere at once.",
+    "reference": "Finding Nemo",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 43,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. The server is having an identity crisis. Is it a superhero or just incredible at breaking?",
+    "reference": "The Incredibles",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 44,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. The server's internal logic is as twisted as a Minion's pronunciation of 'banana'.",
+    "reference": "Minions",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 45,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The server is currently on vacation in Gru's secret lair. Please try again later.",
+    "reference": "Despicable Me",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 46,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The server is out chasing its own tail like Dug the dog. Squirrel!",
+    "reference": "Up",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 47,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. This teapot refuses to brew coffee because it's more sophisticated than that. It's like a Minion in a tuxedo.",
+    "reference": "Minions",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 48,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. Adventure is out there, but not in this teapot. It's strictly for tea, not coffee.",
+    "reference": "Up",
+    "source": "GML 4.6 (Thinking)"
+  },
+ {
+    "Id": 49,
+    "errorNumber": "400",
+    "errorText": "Bad Request. Your request has been possessed. Have you tried an exorcist?",
+    "reference": "The Exorcist",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 50,
+    "errorNumber": "400",
+    "errorText": "Bad Request. Redrum. Redrum. Your request is backwards and makes no sense.",
+    "reference": "The Shining",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 51,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. The truth is out there, but not for you without proper credentials.",
+    "reference": "The X-Files",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 52,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. I see dead people... and none of them have access to this resource.",
+    "reference": "The Sixth Sense",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 53,
+    "errorNumber": "403",
+    "errorText": "Forbidden. Here's Johnny! But he's not allowed in this restricted area.",
+    "reference": "The Shining",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 54,
+    "errorNumber": "403",
+    "errorText": "Forbidden. They're here! And they say you can't access this page.",
+    "reference": "Poltergeist",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 55,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. The page has been taken to the Upside Down. Try flipping your router upside down.",
+    "reference": "Stranger Things",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 56,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. The page vanished without a trace. Mulder and Scully are on the case.",
+    "reference": "The X-Files",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 57,
+    "errorNumber": "408",
+    "errorText": "Request timeout. The server has been stuck in this house for 30 years and is moving very slowly.",
+    "reference": "The Haunting of Hill House",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 58,
+    "errorNumber": "408",
+    "errorText": "Request timeout. We all float down here, including your request that timed out.",
+    "reference": "It",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 59,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. The server is seeing dead processes that don't exist.",
+    "reference": "The Sixth Sense",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 60,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. The server has been possessed by a demon. We need the Winchester brothers.",
+    "reference": "Supernatural",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 61,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The service is currently wandering the earth as a zombie. Please try again tomorrow.",
+    "reference": "The Walking Dead",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 62,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The service is stuck in a time loop, just like in that horror movie you forgot the name of.",
+    "reference": "Happy Death Day",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 63,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. This teapot contains the ghost of Earl Grey. He's not happy about being used for coffee.",
+    "reference": "Ghostbusters",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 64,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. The spirits of this teapot are restless. They prefer Earl Grey, not your coffee request.",
+    "reference": "The Haunting",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 65,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway. The gateway is a door to another dimension, but it's currently not responding.",
+    "reference": "Stranger Things",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 66,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway. The gateway is experiencing some paranormal activity. Who you gonna call?",
+    "reference": "Ghostbusters",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 67,
+    "errorNumber": "400",
+    "errorText": "Bad Request. You're gonna need a bigger request. This one's too small.",
+    "reference": "Jaws",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 68,
+    "errorNumber": "400",
+    "errorText": "Bad Request. It puts the syntax in the request or it gets the error again.",
+    "reference": "Silence of the Lambs",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 69,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. Hello, Clarice. Your credentials have been denied.",
+    "reference": "Silence of the Lambs",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 70,
+    "errorNumber": "401",
+    "errorText": "Unauthorized. We're gonna need a bigger login. This one's not cutting it.",
+    "reference": "Jaws",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 71,
+    "errorNumber": "403",
+    "errorText": "Forbidden. You can't handle the truth! And you can't access this page either.",
+    "reference": "A Few Good Men",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 72,
+    "errorNumber": "403",
+    "errorText": "Forbidden. I'll be back... but not to this restricted area.",
+    "reference": "The Terminator",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 73,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. Just when you thought it was safe to search again...",
+    "reference": "Jaws",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 74,
+    "errorNumber": "404",
+    "errorText": "404: Page not found. A census taker once tried to test this page. I ate his liver with some fava beans and a nice Chianti.",
+    "reference": "Silence of the Lambs",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 75,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. Houston, we have a problem.",
+    "reference": "Apollo 13",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 76,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error. The server is having a bad day. A very bad day.",
+    "reference": "Falling Down",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 77,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The server is busy. Life is like a box of chocolates, you never know what you're gonna get.",
+    "reference": "Forrest Gump",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 78,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable. The server is currently being chased by a shark. Please try again when it's safe to go back in the water.",
+    "reference": "Jaws",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 79,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. I drink your milkshake! I drink it up!",
+    "reference": "There Will Be Blood",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 80,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. This teapot puts the lotion in the basket or it gets the error again.",
+    "reference": "Silence of the Lambs",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 81,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway. The gateway is experiencing some turbulence. Fasten your seatbelts, it's going to be a bumpy night.",
+    "reference": "All About Eve",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 82,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway. The gateway is currently being interrogated about the lambs. It's not responding.",
+    "reference": "Silence of the Lambs",
+    "source": "GML 4.6 (Thinking)"
+  },
+  {
+    "Id": 1,
+    "errorNumber": "400",
+    "errorText": "400 Bad Request - Your request is like that one commit without a message: utterly unhelpful and rejected outright.",
+    "reference": "Git version control frustrations (IT culture)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 2,
+    "errorNumber": "400",
+    "errorText": "400 Bad Request - Syntax error in your query. It's giving me vibes like debugging JavaScript without a linter: pure chaos.",
+    "reference": "JavaScript debugging woes (programming humor)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 3,
+    "errorNumber": "401",
+    "errorText": "401 Unauthorized - Access denied. You're not on the whitelist; go back to the lobby like a noob in an MMORPG.",
+    "reference": "World of Warcraft or general gaming (IT/gamer culture)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 4,
+    "errorNumber": "401",
+    "errorText": "401 Unauthorized - Who goes there? Show your API key or face the firewall's wrath, you digital intruder.",
+    "reference": "Firewall security logs (network admin humor)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 5,
+    "errorNumber": "403",
+    "errorText": "403 Forbidden - This door's locked tighter than a sysadmin's password policy. No entry without the magic incantation.",
+    "reference": "System administration best practices (IT security joke)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": "403",
+    "errorText": "403 Forbidden - Denied! It's like trying to sudo without root privileges—nice try, but you're grounded.",
+    "reference": "Linux command-line culture (Unix humor)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": "404",
+    "errorText": "404 Not Found - The page you're seeking has wandered off, much like that missing semicolon in your code at 2 AM.",
+    "reference": "Late-night coding bugs (programmer life)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": "404",
+    "errorText": "404 Not Found - Resource missing. It's probably eloped with the 500 error—those two are always causing server drama.",
+    "reference": "Server error relationships (web dev humor)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": "405",
+    "errorText": "405 Method Not Allowed - Wrong HTTP verb? That's like POSTing a GET request—my servers are facepalming right now.",
+    "reference": "REST API design pitfalls (web development joke)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": "405",
+    "errorText": "405 Method Not Allowed - Can't do that, Dave. This endpoint's not HAL, but it's still refusing your command.",
+    "reference": "2001: A Space Odyssey (HAL 9000 movie quote twist)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error - Something broke inside. Blame it on the gremlins in the code, just like that unhandled exception.",
+    "reference": "The IT Crowd (TV show gremlin episode)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error - Oops, the server's having an identity crisis. Restarting reality... or at least the app.",
+    "reference": "Docker container restarts (DevOps humor)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway - The upstream server said 'nope.' It's like your proxy coffee machine: full but not brewing.",
+    "reference": "Network proxy failures (sysadmin analogy)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway - Gateway malfunction. Think of it as the digital equivalent of a middleman ghosting your API call.",
+    "reference": "API integration headaches (software engineering joke)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable - Server's taking a nap. Too many requests? It's self-care for overloaded load balancers.",
+    "reference": "Load balancing overload (cloud computing humor)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable - Out of service. The queue's longer than a Black Friday line at the data center.",
+    "reference": "High-traffic server scaling issues (web ops joke)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - Sorry, this server brews HTTP, not requests. Can't process that—I'm short and stout, just here for the pour.",
+    "reference": "RFC 2324 Hyper Text Coffee Pot Control Protocol (IETF April Fools' joke)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - Request denied: This endpoint's a teapot, not a coffee pot. Go ahead, tip me over—still won't serve your data.",
+    "reference": "The nursery rhyme 'I'm a Little Teapot' twisted with HTTP (programmer meme culture)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": "301",
+    "errorText": "301 Moved Permanently - This resource has relocated, like Roy's desk in The IT Crowd after that fire alarm fiasco—don't look for it here anymore.",
+    "reference": "The IT Crowd (Season 1, office mishaps and relocations)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": "301",
+    "errorText": "301 Moved Permanently - Permanently redirected. It's as final as Michael Scott's Dundie awards—chase it to the new URL or face eternal 'not found' awkwardness.",
+    "reference": "The Office (Michael Scott's award ceremonies and stubborn changes)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 21,
+    "errorNumber": "302",
+    "errorText": "302 Found - Temporarily elsewhere, mate. Have you tried turning the URL off and on again? It's probably just hiding like Jen's missing reports.",
+    "reference": "The IT Crowd (Iconic 'Have you tried turning it off and on again?' line)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 22,
+    "errorNumber": "302",
+    "errorText": "302 Found - Temporary redirect. Like Peter's weekend in Office Space—it's here now, but come Monday, it's off smashing printers elsewhere.",
+    "reference": "Office Space (Weekend plans and office frustration breaking point)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 23,
+    "errorNumber": "429",
+    "errorText": "429 Too Many Requests - Slow down, you're flooding the server like Dwight's beet farm flooding the office parking lot—rate limit engaged.",
+    "reference": "The Office (Dwight's chaotic farm antics spilling into work)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 24,
+    "errorNumber": "429",
+    "errorText": "429 Too Many Requests - You've hit the throttle. It's like submitting TPS reports every five minutes in Office Space—bosses hate that, so do servers.",
+    "reference": "Office Space (Endless TPS report bureaucracy)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 25,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error - Total meltdown. Blame the gremlins—remember Moss summoning one in The IT Crowd? They're at it again.",
+    "reference": "The IT Crowd (Season 2, the gremlin episode and tech disasters)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 26,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error - Server's crashed harder than the printer in Office Space. 'PC Load Letter? What the f*** does that mean?' Exactly.",
+    "reference": "Office Space (Iconic printer rage scene)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 27,
+    "errorNumber": "404",
+    "errorText": "404 Not Found - Lost in the ether, like searching for that one email in Jim's inbox during a prank war—utterly vanished.",
+    "reference": "The Office (Jim and Dwight's endless pranks hiding office items/emails)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 28,
+    "errorNumber": "404",
+    "errorText": "404 Not Found - Page AWOL. It's slacking off like Milton hoarding his stapler in the basement—no TPS reports here.",
+    "reference": "Office Space (Milton's misplaced stapler and passive resistance)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 29,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - This server's no coffee machine; it's brewing tea only. Like Moss in The IT Crowd insisting on proper British protocol—no substitutes.",
+    "reference": "The IT Crowd (Moss's quirky obsessions with rules and British quirks)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 30,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - Request rejected: I'm a little teapot, short and stout. Tip me over, pour me out—like the break room coffee pot after Michael's spill in The Office.",
+    "reference": "The Office (Michael Scott's clumsy office accidents, including drinks)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 31,
+    "errorNumber": "451",
+    "errorText": "451 Unavailable for Legal Reasons - Content blocked by the authorities. It's like the printer lawyers in Office Space—shredding your requests before they even print.",
+    "reference": "Office Space (Bureaucratic red tape and the scene with the swingline stapler 'theft')",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 32,
+    "errorNumber": "451",
+    "errorText": "451 Unavailable for Legal Reasons - Legally censored. Reminds me of Roy trying to fix the internet fire in The IT Crowd—turns out, some fires are best left to the experts (or lawyers).",
+    "reference": "The IT Crowd (The internet fire alarm episode and chaotic fixes)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 33,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway - Upstream failure. The gateway's jammed tighter than the office fax machine during TPS report season in Office Space—nothing's getting through.",
+    "reference": "Office Space (Endless paperwork and jammed office equipment frustration)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 34,
+    "errorNumber": "502",
+    "errorText": "502 Bad Gateway - Bad connection ahead. Like phoning IT support in The IT Crowd and getting 'Have you tried turning the entire internet off and on again?'",
+    "reference": "The IT Crowd (Iconic support lines and absurd troubleshooting)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 35,
+    "errorNumber": "511",
+    "errorText": "511 Network Authentication Required - Authenticate or be blocked. It's Dwight-level security: show your credentials or face the beet farm lockdown in The Office.",
+    "reference": "The Office (Dwight's overzealous security measures and farm references)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 36,
+    "errorNumber": "511",
+    "errorText": "511 Network Authentication Required - Login failed. Like sneaking into the weekend in Office Space without Lumbergh's permission—hypothetically fired on the spot.",
+    "reference": "Office Space (Peter's weekend plans and unauthorized 'work' avoidance)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 37,
+    "errorNumber": "404",
+    "errorText": "404 Not Found - The resource has vanished into hyperspace, like the Millennium Falcon dodging Imperial scanners—may the Force guide you to the new location.",
+    "reference": "Star Wars (Hyperspace jumps and evading detection in the original trilogy)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 38,
+    "errorNumber": "404",
+    "errorText": "404 Not Found - Page not found. It's glitching like Neo's déjà vu in The Matrix—reality's shifted, and that URL is just a simulation.",
+    "reference": "The Matrix (Déjà vu scenes and questioning simulated reality)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 39,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error - System failure, red alert! The server's throwing a warp core breach tantrum—evacuate or reboot the dilithium crystals.",
+    "reference": "Star Trek (Warp core breaches and emergency protocols in The Next Generation)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 40,
+    "errorNumber": "500",
+    "errorText": "500 Internal Server Error - Catastrophic glitch. Like HAL 9000 going rogue in 2001: A Space Odyssey—'I'm sorry, Dave, I'm afraid I can't serve that.'",
+    "reference": "2001: A Space Odyssey (HAL's malfunction and refusal to cooperate)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 41,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - Affirmative, this is not a replicator for coffee—I'm a teapot from the 23rd century, programmed for Earl Grey, hot. No data streams here.",
+    "reference": "Star Trek: The Next Generation (Picard's tea preference and replicator tech)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 42,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - Request illogical. I'm a teapot, not a data pod—much like the TARDIS refusing to materialize for non-timey-wimey tasks in Doctor Who.",
+    "reference": "Doctor Who (TARDIS malfunctions and quirky limitations)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 43,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable - Shields are up, maximum; server's in lockdown like the Enterprise during a Borg assimilation attempt—try again when the cube's neutralized.",
+    "reference": "Star Trek: The Next Generation (Borg encounters and defensive shielding)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 44,
+    "errorNumber": "503",
+    "errorText": "503 Service Unavailable - Overloaded circuits. The grid's collapsing faster than the human resistance in The Matrix—jack out and come back later.",
+    "reference": "The Matrix (System overloads and the machine world's vulnerabilities)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+ {
+    "Id": 45,
+    "errorNumber": "406",
+    "errorText": "406 Not Acceptable - Your request's format is banana-peel slippery, like a minion's invention in Despicable Me—can't accept that gibberish without a translator droid.",
+    "reference": "Despicable Me (Minions' chaotic, language-barrier-filled inventions and plans)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 46,
+    "errorNumber": "406",
+    "errorText": "406 Not Acceptable - Content type rejected. It's as incompatible as Gru's shrink ray on a full moon heist—wrong specs, total minion mayhem.",
+    "reference": "Despicable Me (Gru's gadget failures and the moon theft plot's tech glitches)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 47,
+    "errorNumber": "408",
+    "errorText": "408 Request Timeout - You're taking longer than a minion army building a pyramid—request expired, go chase your own bananas elsewhere.",
+    "reference": "Minions (The minions' endless, inefficient construction antics and boss quests)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 48,
+    "errorNumber": "408",
+    "errorText": "408 Request Timeout - Hanged request. Like waiting for the girls to adopt a unicorn in Despicable Me—timeout, plot twist incoming with minion destruction.",
+    "reference": "Despicable Me (Family adoption delays and minion-caused household disasters)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 49,
+    "errorNumber": "412",
+    "errorText": "412 Precondition Failed - Your if-match header's outdated, like Gru's evil plan before the cookie robots backfired—preconditions not met, villainy aborted.",
+    "reference": "Despicable Me (Gru's failed cookie-bot infiltration and scheme preconditions)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 50,
+    "errorNumber": "412",
+    "errorText": "412 Precondition Failed - Condition unmet. It's minion-level logic fail: 'If banana, then success'—but no peel, no deal on that request.",
+    "reference": "Minions (Minions' banana obsession driving absurd, precondition-based behaviors)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 51,
+    "errorNumber": "413",
+    "errorText": "413 Payload Too Large - Upload too big; server's belly full like after a minion banana buffet—split it up or face the jelly overload crash.",
+    "reference": "Despicable Me (Minions' gluttonous antics with food and massive messes)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 52,
+    "errorNumber": "413",
+    "errorText": "413 Payload Too Large - Entity too hefty. Reminds me of shipping the giant squid in Despicable Me—too much payload, delivery denied with explosive results.",
+    "reference": "Despicable Me (Gru's overambitious shipments and gadget overloads)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 53,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - Not a minion minion-vacuum; I'm a teapot. Request for data? Po-ta-to. Like trying to get Gru to hug it out instead of steal the moon.",
+    "reference": "Despicable Me (Minions' miscommunications and Gru's grumpy reluctance to 'hug' plans)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 54,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - Short and stout, handle me right—or tip me over and pour me out. But no API calls; that's for minion jelly guns, not tea time.",
+    "reference": "Minions (Nursery rhyme twist on minion tool mishaps and playful chaos)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 55,
+    "errorNumber": "410",
+    "errorText": "410 Gone - The resource has vanished forever, like the Upside Down's Demogorgon lurking just out of portal—it's not coming back, end of story.",
+    "reference": "Stranger Things (The Upside Down dimension and monstrous disappearances)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 56,
+    "errorNumber": "410",
+    "errorText": "410 Gone - Permanently deleted. It's as final as Pennywise's balloon popping in IT—float away, but that URL's six feet under now.",
+    "reference": "IT (Stephen King's clown terror and the Losers' Club's forgotten fears)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 57,
+    "errorNumber": "426",
+    "errorText": "426 Upgrade Required - Protocol too outdated; time to level up like Buffy facing a new vampire strain—TLS 1.3 or bust, slayer.",
+    "reference": "Buffy the Vampire Slayer (Evolving supernatural threats and the Scooby Gang's upgrades)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 58,
+    "errorNumber": "426",
+    "errorText": "426 Upgrade Required - Need a better version. Your HTTP/1.0 is ghosting like Casper the Friendly Ghost's outdated haunts—upgrade or haunt elsewhere.",
+    "reference": "Casper (The ghost's friendly but tech-mismatched attempts to connect)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 59,
+    "errorNumber": "428",
+    "errorText": "428 Precondition Required - Missing token, can't proceed. It's like needing the ghost trap charged in Ghostbusters before busting any ectoplasm—lock and load first.",
+    "reference": "Ghostbusters (Prepping proton packs and traps for spectral encounters)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 60,
+    "errorNumber": "428",
+    "errorText": "428 Precondition Required - Conditions not set. Reminds me of the Addams Family's torture chamber ritual—without the right spooky setup, no family fun.",
+    "reference": "The Addams Family (Quirky, precondition-heavy gothic family traditions)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 61,
+    "errorNumber": "431",
+    "errorText": "431 Request Header Fields Too Large - Headers bloated like a zombie horde in The Walking Dead—trim the fat or the server's walkers will overrun you.",
+    "reference": "The Walking Dead (Overwhelming undead masses and survival overload)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 62,
+    "errorNumber": "431",
+    "errorText": "431 Request Header Fields Too Large - Too many fields; server's haunted by data ghosts. Like Beetlejuice's waiting room—three headers too many, and poof, denied entry.",
+    "reference": "Beetlejuice (The bureaucratic afterlife and rules for summoning)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 63,
+    "errorNumber": "303",
+    "errorText": "303 See Other - Redirecting you elsewhere; check that URL like Chief Brody scanning the waters in Jaws—shark's not here, but danger lurks over there.",
+    "reference": "Jaws (Brody's vigilant beach patrols and false alarms before the shark strikes)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 64,
+    "errorNumber": "303",
+    "errorText": "303 See Other - Method changes to GET; see the other endpoint. It's quid pro quo, Clarice—answer my redirect or no fava beans and Chianti insights.",
+    "reference": "The Silence of the Lambs (Lecter's quid pro quo exchanges with Clarice for information)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 65,
+    "errorNumber": "307",
+    "errorText": "307 Temporary Redirect - Follow the new path for now. Like Quint's boat veering from the shark in Jaws—temporary detour, but the jaws of defeat snap close behind.",
+    "reference": "Jaws (The Orca's evasive maneuvers during the high-seas hunt)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 66,
+    "errorNumber": "307",
+    "errorText": "307 Temporary Redirect - Keep your method intact, just redirect. It's temporary like Buffalo Bill's skin suit fittings—follow the trail, but don't get skinned alive.",
+    "reference": "The Silence of the Lambs (The investigation's twists following temporary leads in the serial killer hunt)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 67,
+    "errorNumber": "308",
+    "errorText": "308 Permanent Redirect - This way forever, no going back. The shark's migrated permanently, like in Jaws—chum the new waters or stay out of the deep end.",
+    "reference": "Jaws (The relentless shark's persistent terror, forcing permanent changes in beach safety)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 68,
+    "errorNumber": "308",
+    "errorText": "308 Permanent Redirect - Locked in on the new URL. Permanent like Lecter's cell in The Silence of the Lambs—escape attempts futile, accept the new reality or face the lambs' screams.",
+    "reference": "The Silence of the Lambs (Lecter's inescapable psychological hold and permanent incarceration themes)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 69,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - Not equipped for shark chum requests—I'm a teapot, whistling warnings like the buoys in Jaws. Tip me over? You'll just get steamed, no bites.",
+    "reference": "Jaws (Warning buoys and the escalating shark alerts before attacks)",
+    "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 70,
+    "errorNumber": "418",
+    "errorText": "418 I'm a Teapot - Request denied; this teapot's no Lecter dinner service. 'A census taker once tried to test me... I ate his liver with some fava beans'—but no data here.",
+    "reference": "The Silence of the Lambs (Lecter's chilling anecdote about the census taker, twisted for refusal)",
+    "source": "Grok 4 Fast (Reasoning)"
   }
 ]
