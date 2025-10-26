@@ -3570,5 +3570,300 @@
     "errorText": "418 I'm a Teapot - Request denied; this teapot's no Lecter dinner service. 'A census taker once tried to test me... I ate his liver with some fava beans'—but no data here.",
     "reference": "The Silence of the Lambs (Lecter's chilling anecdote about the census taker, twisted for refusal)",
     "source": "Grok 4 Fast (Reasoning)"
+  },
+  {
+    "Id": 1,
+    "errorNumber": "400",
+    "errorText": "Your request was so malformed, even the JSON parser facepalmed. Syntax error: human detected.",
+    "reference": "The IT Crowd",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 2,
+    "errorNumber": "400",
+    "errorText": "I'm sorry, Dave. I'm afraid I can't process that request. It's full of stars... and errors.",
+    "reference": "2001: A Space Odyssey",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 3,
+    "errorNumber": "401",
+    "errorText": "You shall not pass! Authentication required. Gandalf says so.",
+    "reference": "Lord of the Rings",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 4,
+    "errorNumber": "401",
+    "errorText": "These are not the credentials you're looking for. Move along.",
+    "reference": "Star Wars",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 5,
+    "errorNumber": "403",
+    "errorText": "Access forbidden. You need a golden ticket to enter this chocolate factory.",
+    "reference": "Willy Wonka & the Chocolate Factory",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": "403",
+    "errorText": "The cake is a lie. So is your access to this resource.",
+    "reference": "Portal",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": "404",
+    "errorText": "The page you're looking for is in another castle. Try again with a better princess.",
+    "reference": "Super Mario Bros.",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": "404",
+    "errorText": "We have to go back! This page is lost on the island.",
+    "reference": "Lost TV series",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot. I refuse to brew coffee because I'm a teapot. Deal with it.",
+    "reference": "RFC 2324 (Hyper Text Coffee Pot Control Protocol)",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": "418",
+    "errorText": "Short and stout? Here is my handle, here is my spout. When I say I'm a teapot, I'm not fooling about.",
+    "reference": "I'm a Little Teapot nursery rhyme",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": "429",
+    "errorText": "Slow down, Speedy Gonzalez! Even the Flash would say you're making too many requests.",
+    "reference": "Looney Tunes",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": "429",
+    "errorText": "You're clicking faster than a caffeinated squirrel. Take a breather, my dude.",
+    "reference": "Over the Hedge",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": "451",
+    "errorText": "This page has been burned by the firemen. It's 451 degrees in here.",
+    "reference": "Fahrenheit 451",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": "451",
+    "errorText": "Access to this resource is unavailable for legal reasons. The Ministry of Truth has spoken.",
+    "reference": "1984",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": "500",
+    "errorText": "The server is having an existential crisis. Does this bit exist? Who knows.",
+    "reference": "The Hitchhiker's Guide to the Galaxy",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": "500",
+    "errorText": "I've made a huge mistake. The server is blue-screening of death.",
+    "reference": "Arrested Development",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": "502",
+    "errorText": "The gateway is having trust issues with the upstream server. It's complicated.",
+    "reference": "Facebook relationship status",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": "502",
+    "errorText": "Bad gateway? More like bad relationship. These servers need couples counseling.",
+    "reference": "Dr. Phil",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": "503",
+    "errorText": "The service is currently out for coffee. It'll be back after its third cup.",
+    "reference": "The IT Crowd",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": "503",
+    "errorText": "All our circuits are busy. Please hold for the next available operator. *elevator music plays*",
+    "reference": "Back to the Future",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 21,
+    "errorNumber": "507",
+    "errorText": "Insufficient storage? More like insufficient closet space. Time to Marie Kondo this server.",
+    "reference": "Tidying Up with Marie Kondo",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  {
+    "Id": 22,
+    "errorNumber": "507",
+    "errorText": "The server's digital hoarding has reached critical levels. Time for an intervention.",
+    "reference": "Hoarders TV show",
+    "source": "DeepSeek v3.2 Exp (Thinking)"
+  },
+  
+  {
+    "Id": 1,
+    "errorNumber": "404",
+    "errorText": "The page you requested is on a coffee break. It's not lost—it's just practicing mindfulness in /dev/null.",
+    "reference": "The Office",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 2,
+    "errorNumber": "404",
+    "errorText": "This HTML vanished faster than free pizza at a sysadmin meetup. Try searching Yelp for 'web developers who care'.",
+    "reference": "Parks and Recreation",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 3,
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: Our backend tried to do yoga and snapped. Please send help (and coffee).",
+    "reference": "Parks and Recreation",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 4,
+    "errorNumber": "500",
+    "errorText": "The server is having an existential crisis after reading its own YAML config files. 'To be or not to be... deployed?'",
+    "reference": "Westworld",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 5,
+    "errorNumber": "403",
+    "errorText": "Access denied! Your IP has been blacklisted for binge-watching Wireshark packet captures like it's Netflix.",
+    "reference": "Black Mirror",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": "403",
+    "errorText": "Forbidden! This endpoint is more locked down than Thanos' Infinity Gauntlet collection.",
+    "reference": "Avengers: Infinity War",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": "401",
+    "errorText": "Unauthorized: Your password is 'password123'? Even the SQL injection attack felt embarrassed for you.",
+    "reference": "The IT Crowd",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": "401",
+    "errorText": "Credentials rejected! This isn't even my final form! (Said the compromised OAuth token)",
+    "reference": "Dragon Ball Z",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": "400",
+    "errorText": "Bad Request: Your JSON is valid™ until someone tries to read it. Now it’s just JSONata's worst nightmare.",
+    "reference": "Ancient Aliens",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": "400",
+    "errorText": "Syntax error! Your API call has more missing commas than a developer at a family reunion.",
+    "reference": "The Social Network",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": "502",
+    "errorText": "Bad Gateway: The server tried to pass the message but got lost in office gossip like a Slack notification.",
+    "reference": "The Office",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": "502",
+    "errorText": "Gateway Error: Our microservice is off getting a latte. Again. This is why we can't have nice REST APIs.",
+    "reference": "Silicon Valley",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: Please wait while we reattach our nervous system. This outage brought to you by lack of coffee.",
+    "reference": "The Matrix Reloaded",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": "503",
+    "errorText": "503 Error: We’re out of service like a Blackberry in 2024. Try again after rebooting reality.",
+    "reference": "Wall-E",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": "418",
+    "errorText": "I'm a teapot! I refuse to brew coffee, even if you 'sudo' me. This ain't Java, kid. RFC 2324 compliant!",
+    "reference": "Alice in Wonderland",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": "418",
+    "errorText": "Error 418: Short and stout. Your request is too loud—I’m putting my spout down.",
+    "reference": "Alice in Wonderland",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: Slow your roll! Even The Flash would get shin splints from your API call rate.",
+    "reference": "The Flash",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": "429",
+    "errorText": "429 Error: Your request rate is more aggressive than a toddler demanding cookies. Back off, sugar monster.",
+    "reference": "Sesame Street",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": "504",
+    "errorText": "Gateway Timeout: Our server is off finding itself in the mountains. Try again after it finishes its identity quest.",
+    "reference": "Into the Wild",
+    "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": "504",
+    "errorText": "504 Error: Like waiting for Windows updates, this gateway is taking its sweet time to 'improve your experience'.",
+    "reference": "Office Space",
+    "source": "Qwen 3 235B (Thinking)"
   }
 ]
