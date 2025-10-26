@@ -116,7 +116,7 @@
 
       errorTitle.textContent = errorNum//.substring(4, errorNum.length)//text.length > 80 ? text.slice(0, 80) + '…' : text;
       errorId.textContent = 'ID: ' + (Id ?? '—');
-      errorNumber.textContent =  (errorNum.substring(0, 4) ?? '—'); //'#' +
+      errorNumber.textContent =  errorNum.substring ?  (errorNum.substring(0, 4) ?? '—'):errorNum; //'#' +
       errorText.textContent = text;
       errorReference.textContent = reference;
       errorSource.textContent = source;
