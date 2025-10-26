@@ -1,37 +1,1374 @@
 [
   {
-    "Id": "e001",
-    "errorNumber": "1001",
-    "errorText": "NullReferenceException: Object reference not set to an instance of an object.",
-    "reference": "https://docs.example.com/errors/1001",
-    "source": "Application.Core"
+    "Id": 1,
+    "errorNumber": "200 OK",
+    "errorText": "Success! The server understood your request. We're as surprised as you are.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
   },
   {
-    "Id": "e002",
-    "errorNumber": "2002",
-    "errorText": "TimeoutError: The operation timed out after waiting for response from service.",
-    "reference": "https://docs.example.com/errors/2002",
-    "source": "Network.Layer"
+    "Id": 2,
+    "errorNumber": "200 OK",
+    "errorText": "Looks like someone remembered their semicolon. Everything's shiny, cap'n!",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
   },
   {
-    "Id": "e003",
-    "errorNumber": "3003",
-    "errorText": "ValidationError: Input did not pass schema validation - missing required field 'email'.",
-    "reference": "https://docs.example.com/errors/3003",
-    "source": "API.Validator"
+    "Id": 3,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "This page isn't here anymore. It's living its best life on a farm upstate with all the other old URLs.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
   },
   {
-    "Id": "e004",
-    "errorNumber": "4004",
-    "errorText": "DatabaseError: Unique constraint violation on table 'users' (username).",
-    "reference": "https://docs.example.com/errors/4004",
-    "source": "Database.Module"
+    "Id": 4,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "Our content has moved on to bigger and better things. You should too. Here's where we went:",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
   },
   {
-    "Id": "e005",
-    "errorNumber": "5005",
-    "errorText": "IOError: Failed to write to disk. Disk quota exceeded.",
-    "reference": "https://docs.example.com/errors/5005",
-    "source": "Storage.Manager"
+    "Id": 5,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Your request syntax is... unique. Unfortunately, our server speaks fluent computer, not interpretive dance.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": "400 Bad Request",
+    "errorText": "We appreciate the effort, but that request just broke our parser. Did you try turning it off and on again?",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Access denied. Did you bring snacks? Because around here, credentials often come with cookies.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Who are you, and what have you done with the person authorized to be here?",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": "403 Forbidden",
+    "errorText": "You do not have permission to view this resource. It's not you, it's us... guarding our precious data.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": "403 Forbidden",
+    "errorText": "Sorry, this part of the internet is only for users with the 'admin' role, or at least a really good disguise.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": "404 Not Found",
+    "errorText": "The page you are looking for has gone on an adventure and hasn't sent a postcard yet.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": "404 Not Found",
+    "errorText": "Lost in cyberspace! Our server checked under the digital couch cushions, but it's just not there.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "You tried to do that with a `GET`? Bless your heart. That's a `POST` situation.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "Incorrect method usage detected. It's like bringing a spoon to a knife fight. Use the right tool!",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": "410 Gone",
+    "errorText": "This page isn't just missing, it's been professionally *disappeared*. No trace, no forwarding address.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": "410 Gone",
+    "errorText": "Consider this page the 'friend' who deactivated all their social media and changed their number.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I am a teapot, short and stout. Here is my handle, here is my spout. Now stop trying to brew coffee with me!",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "This server identifies as a teapot and is incapable of brewing coffee. Please use an actual coffeepot.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Woah there, partner! You're hitting us faster than a coder on deadline. Take a breather.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Our server is feeling a bit overwhelmed. It needs a moment to 'cache' its breath.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 21,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Our server just had an existential crisis. Please try again after it finds its purpose in life.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 22,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Oops! Our hamsters powering the server briefly went off-script. We've redirected them to the manual.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 23,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "It's not us, it's the other server! We're just the messenger, and the message got garbled on the way.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 24,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "Our server tried to talk to another server, but they're not on speaking terms right now.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 25,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "Our server is currently on a coffee break. Please try again after its caffeine fix.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 26,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "Under construction, or perhaps just taking a nap. We'll be back online as soon as we're done procrastinating.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 27,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "The server upstream is apparently napping. We've sent a sternly worded digital memo.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 28,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "We're waiting for another server... It seems to be experiencing dial-up speeds from the 90s.",
+    "reference": "General IT/Computer Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 29,
+    "errorNumber": "200 OK",
+    "errorText": "Success! The incantation worked perfectly. The spirits are appeased... for now.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 30,
+    "errorNumber": "200 OK",
+    "errorText": "The portal opened without a hitch. Proceed with caution; you never know what might step through.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 31,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "This page isn't just moved, it's been *exorcised* to a new domain. Here's where it haunts now.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 32,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "Our content has permanently relocated to the digital graveyard. We advise you to follow its ghost.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 33,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Your request syntax is... a horrifying mess. Did you accidentally summon a demon instead of a webpage?",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 34,
+    "errorNumber": "400 Bad Request",
+    "errorText": "The server couldn't parse that. It seems your spellbook is missing a few key ingredients.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 35,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Access denied. You lack the proper spectral clearance. Did you forget your ghost costume?",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 36,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Only the initiated may pass! Present your secret password, or face the restless spirits.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 37,
+    "errorNumber": "403 Forbidden",
+    "errorText": "You do not have permission to view this crypt. It's reserved for ancient evils and high-level admins.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 38,
+    "errorNumber": "403 Forbidden",
+    "errorText": "This haunted manor is off-limits. Even the ghouls respect its privacy.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 39,
+    "errorNumber": "404 Not Found",
+    "errorText": "The page you are looking for has vanished into the misty abyss. Perhaps it was just a phantom.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 40,
+    "errorNumber": "404 Not Found",
+    "errorText": "Lost in the spectral realm! Our server checked every cobwebbed corner, but it's nowhere to be found.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 41,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "You tried to `GET` that with a `PUT`? That's like trying to carve a pumpkin with a spoon – wrong tool for the job!",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 42,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "Incorrect method usage. You're trying to summon a zombie with a vampire's incantation. It just won't work.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 43,
+    "errorNumber": "410 Gone",
+    "errorText": "This page isn't just gone, it's *spiritually departed*. Not even a trace of its ethereal remains.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 44,
+    "errorNumber": "410 Gone",
+    "errorText": "Consider this page to have joined the headless horseman on his eternal ride. It's simply not coming back.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 45,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I am a teapot, short and stout, brewing potions, not coffee, no doubt. Try elsewhere for your regular brew!",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 46,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "This server identifies as a cauldron and is currently brewing a witches' concoction, not your web request.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 47,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Whoa there, ghoul! You're knocking on our digital door faster than trick-or-treaters. Hold your horses... or broomsticks!",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 48,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Our server is overwhelmed! It needs a moment to catch its breath from all these spectral visitors.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 49,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Our server just encountered a full-blown poltergeist. We're trying to contain the spooky chaos.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 50,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Oops! Looks like the ghost in the machine took over. The server is currently possessed.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 51,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "It's not us, it's the server in the next dimension! Their portal is flickering like a haunted lamp.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 52,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "Our server tried to connect to the spirit world, but the spirits weren't communicating clearly.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 53,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "Our server is currently undergoing a full moon transformation. Please try again after the werewolf phase passes.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 54,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "The cemetery gates are locked tonight. The service is unavailable while the dead roam free.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 55,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "The upstream server is apparently lost in the haunted woods. We've sent a raven to check on it.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 56,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "We're waiting for another server... It seems to be experiencing a severe delay navigating the cosmic cobwebs.",
+    "reference": "Halloween Theme",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 57,
+    "errorNumber": "200 OK",
+    "errorText": "It's working. Are you *sure* you plugged it in correctly? Because that never happens.",
+    "reference": "The IT Crowd",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 58,
+    "errorNumber": "200 OK",
+    "errorText": "The request went through. We're thinking of getting a second stapler to celebrate. A red one.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 59,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "This page has been permanently relocated. Probably to a filing cabinet in Toby's office, where it will never be seen again.",
+    "reference": "The Office",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 60,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "Yeah, we moved that page. It's in a new folder now. You probably won't find it. Nobody *likes* their folder.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 61,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Did you try sending it to *us*? Because that request looks like it came from a standard user trying to plug a USB into a modem.",
+    "reference": "The IT Crowd",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 62,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Looks like someone forgot to put the cover sheet on their TPS report for that request.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 63,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Sorry, you don't have the appropriate level of Dunder Mifflin security clearance for that. Maybe try again with a better 'That's what she said!'",
+    "reference": "The Office",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 64,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "We're gonna need you to come in on Saturday to provide your credentials for this page. Oh, and Sunday too.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 65,
+    "errorNumber": "403 Forbidden",
+    "errorText": "You're not invited to this party. And honestly, if you were, you probably wouldn't want to come anyway. It's mostly spreadsheets.",
+    "reference": "The IT Crowd",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 66,
+    "errorNumber": "403 Forbidden",
+    "errorText": "Only Regional Managers, Assistant *to* the Regional Manager, and Schrute family members are allowed here. You are neither.",
+    "reference": "The Office",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 67,
+    "errorNumber": "404 Not Found",
+    "errorText": "That page isn't just missing, it's been taken out back and given the `del` key treatment by two guys named Bob.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 68,
+    "errorNumber": "404 Not Found",
+    "errorText": "The file is not found. Have you tried turning the internet off and on again? Or checking if it's on fire?",
+    "reference": "The IT Crowd",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 69,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "You can't just `DELETE` assets from Dunder Mifflin, Jim. That's a `POST` operation, and it requires a form from HR and Michael's approval.",
+    "reference": "The Office",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 70,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "We've found that the `GET` method has a tendency to, uh, *misplace* pages. We're gonna need you to use a different method.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 71,
+    "errorNumber": "410 Gone",
+    "errorText": "This page isn't just missing; it's gone for good. Like the time Jen thought she was IT proficient.",
+    "reference": "The IT Crowd",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 72,
+    "errorNumber": "410 Gone",
+    "errorText": "Consider this page to have been `pc LOAD LETTER`'d right out of existence. Permanently.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 73,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I am a teapot. I don't brew coffee, and I certainly don't process your mundane web requests. Have you tried calling technical support?",
+    "reference": "The IT Crowd",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 74,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "This server identifies as a teapot and is incapable of brewing coffee. Also, it's pretty sure Jim put its stapler in Jell-O again.",
+    "reference": "The Office",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 75,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Woah there, partner! You're hitting us faster than Michael Scott hits a pedestrian. Take a break.",
+    "reference": "The Office",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 76,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Excuse me. I believe you have my server. I'm going to need it back. Also, you're requesting too much.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 77,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Our server just had an existential crisis and blamed 'The Elders of the Internet.' Try again later.",
+    "reference": "The IT Crowd",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 78,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Looks like the internal server just had a Michael Scott moment and tried to fire itself. We're working on it.",
+    "reference": "The Office",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 79,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "Yeah, the gateway server is just having one of those Mondays. It's not our fault; it's the other server's problem.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 80,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "Our server tried to talk to the other server, but the other server was having 'social anxiety' and just stared at its shoes.",
+    "reference": "The IT Crowd",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 81,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "Our server is currently on a mandated HR diversity training retreat. Please try again after it returns, presumably enlightened.",
+    "reference": "The Office",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 82,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "The service is unavailable. It probably went to Lumbergh's house to watch 'Kung Fu' with him.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 83,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "The upstream server is apparently staring at a flashing cursor. It probably just needs to be turned off and on again.",
+    "reference": "The IT Crowd",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 84,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "We're waiting for another server... It's probably stuck in traffic, or maybe just took a really long lunch break, you know, for 'synergy'.",
+    "reference": "Office Space",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 85,
+    "errorNumber": "200 OK",
+    "errorText": "Success! Our sensors confirm the request is optimal. Engage!",
+    "reference": "Star Trek",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 86,
+    "errorNumber": "200 OK",
+    "errorText": "It worked! All timelines are stable, and no paradoxes were created. For once.",
+    "reference": "Doctor Who",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 87,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "This is not the page you are looking for. It has permanently moved to a galaxy far, far away.",
+    "reference": "Star Wars",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 88,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "This page has been permanently relocated. It's now part of a new simulation. Red pill or blue pill?",
+    "reference": "The Matrix",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 89,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Captain, our shields are failing! That request syntax is highly illogical.",
+    "reference": "Star Trek",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 90,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Bad request! It appears your query tried to cross the streams or perhaps existed in two places at once. We're getting temporal feedback.",
+    "reference": "Doctor Who",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 91,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Access denied. You lack the Force necessary to proceed. Try again with a Jedi mind trick.",
+    "reference": "Star Wars",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 92,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Unauthorized access. Are you an replicant? Prove your baseline. Or show us your clearance ID.",
+    "reference": "Blade Runner",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 93,
+    "errorNumber": "403 Forbidden",
+    "errorText": "Forbidden! You lack the proper security clearance, Ensign. Only Section 31 personnel may view this.",
+    "reference": "Star Trek",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 94,
+    "errorNumber": "403 Forbidden",
+    "errorText": "This content is forbidden! A fixed point in time, perhaps? Or maybe it's just guarded by the Weeping Angels.",
+    "reference": "Doctor Who",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 95,
+    "errorNumber": "404 Not Found",
+    "errorText": "The page you are looking for has vanished into hyperspace. Probably vaporized by a Death Star.",
+    "reference": "Star Wars",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 96,
+    "errorNumber": "404 Not Found",
+    "errorText": "Page not found. Our scans indicate it's not on board. But be careful... something *else* might be.",
+    "reference": "Alien",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 97,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "You tried to `GET` that with a `PUT`? There is no spoon... or rather, no valid method for that operation.",
+    "reference": "The Matrix",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 98,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "Incorrect method! That's like trying to travel through time by reversing your car. It just won't work that way.",
+    "reference": "Doctor Who",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 99,
+    "errorNumber": "410 Gone",
+    "errorText": "This page isn't just missing; it's been *phasered* out of existence. No trace remains.",
+    "reference": "Star Trek",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 100,
+    "errorNumber": "410 Gone",
+    "errorText": "The content has been snapped away. It's gone, for good. Thanks, Thanos.",
+    "reference": "Avengers/MCU",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 101,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I am a teapot. Don't panic! But also, I'm genuinely not equipped to fulfill your web request. Have you tried asking Deep Thought?",
+    "reference": "Hitchhiker's Guide to the Galaxy",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 102,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "This server is designated as a 'Tea, Earl Grey, Hot' replicator and cannot process your query. Please state your beverage preference.",
+    "reference": "Star Trek",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 103,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Whoa there, blast-em! You're hitting us faster than a TIE fighter squadron. Stand down.",
+    "reference": "Star Wars",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 104,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Too many requests detected! The Cylons are probably trying to brute-force our firewall. Initiate FTL jump!",
+    "reference": "Battlestar Galactica",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 105,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Our server just had an internal error. It appears HAL is refusing to open the pod bay doors for your request.",
+    "reference": "2001: A Space Odyssey",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 106,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Oops! The server encountered a temporal paradox within its core. Expect some wibbly-wobbly, timey-wimey results.",
+    "reference": "Doctor Who",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 107,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "The gateway failed to connect! It seems the wormhole collapsed between us and the upstream server.",
+    "reference": "Stargate",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 108,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "It's not us, Captain! The sub-space relay network is experiencing severe anomalies with the upstream server.",
+    "reference": "Star Trek",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 109,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "The Oracle is currently unavailable. She's probably baking cookies. Please wait for the prophecy to be fulfilled.",
+    "reference": "The Matrix",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 110,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "The hyperdrive is offline. Service is unavailable while we manually recalibrate the main power couplings.",
+    "reference": "Star Wars",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 111,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "The upstream server is non-responsive. It seems to have wandered into a nebula and lost communications.",
+    "reference": "Star Trek",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 112,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "We're waiting for another server... It's experiencing extreme time dilation and won't respond for another 23 years. Maybe.",
+    "reference": "Interstellar",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 113,
+    "errorNumber": "200 OK",
+    "errorText": "Success! Request 'Ba-na-na!' processed. Prepare for maximum chaos... I mean, output!",
+    "reference": "Minions",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 114,
+    "errorNumber": "200 OK",
+    "errorText": "It worked! The server did exactly what it was told. Now, where did that giant mallet come from?",
+    "reference": "General Cartoon Humor",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 115,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "That page has been permanently relocated. It's now over there, behind that giant boulder. *Meep meep!*",
+    "reference": "Looney Tunes",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 116,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "This content has moved on to a new adventure! It's gone to Andy's room... or perhaps Sid's, so approach with caution.",
+    "reference": "Toy Story",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 117,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Uh oh, 'Poo-kay'? Your request syntax is... well, it looks like a banana-shaped spaghetti mess.",
+    "reference": "Minions",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 118,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Bad Request! Did you assemble that query using an Acme instruction manual? Because it just backfired spectacularly.",
+    "reference": "Wile E. Coyote",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 119,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Access denied, stranger! Only ogres, donkeys, and occasionally Puss in Boots are allowed through this swamp.",
+    "reference": "Shrek",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 120,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "You're not cleared for this door! We detect an unauthorized... *human child* in your request.",
+    "reference": "Monsters, Inc.",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 121,
+    "errorNumber": "403 Forbidden",
+    "errorText": "Forbidden! This area is for our evil master's plans only. No 'Boo-yah!' for you.",
+    "reference": "Minions",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 122,
+    "errorNumber": "403 Forbidden",
+    "errorText": "Zoinks! Access to this haunted mansion is forbidden. It's probably just Old Man Withers in a sheet, but still.",
+    "reference": "Scooby-Doo",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 123,
+    "errorNumber": "404 Not Found",
+    "errorText": "Page not found! We've searched every coral reef and found nothing. Have you checked the EAC?",
+    "reference": "Finding Nemo",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 124,
+    "errorNumber": "404 Not Found",
+    "errorText": "Lost! The page probably fell into a crevice or got buried under a snowdrift. Blame Scrat.",
+    "reference": "Ice Age",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 125,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "You tried to `GET` that with a `PUT`? That's like trying to catch the Road Runner with a tiny net – completely the wrong method!",
+    "reference": "Looney Tunes",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 126,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "Incorrect method usage, minion! You're trying to use a freeze ray when you need the Fart Gun. Focus!",
+    "reference": "Despicable Me",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 127,
+    "errorNumber": "410 Gone",
+    "errorText": "This page isn't just missing; it's 'gone to college.' Don't expect to see it back in the toy box.",
+    "reference": "Toy Story",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 128,
+    "errorNumber": "410 Gone",
+    "errorText": "This content has moved on, hakuna matata. No worries, no trace, no coming back.",
+    "reference": "The Lion King",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 129,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I am a teapot. My name is Mrs. Potts, and I brew tea, dear. I do not serve web requests. Would you like a biscuit?",
+    "reference": "Beauty and the Beast",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 130,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I am a teapot! 'Tulaliloo ti amo!' But I only make 'banana' tea. No web pages. 'Bello!'",
+    "reference": "Minions",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 131,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Tom & Jerry: Woah there, you're hitting us faster than Tom chasing Jerry! Take a breather before the whole system crashes.",
+    "reference": "Tom & Jerry",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 132,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Too many requests! You're slinging queries at us faster than Red at a pig fortress. Calm down!",
+    "reference": "Angry Birds",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 133,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Uh oh! Our server just had a 'Poo-kay' moment and detonated internally. Expect banana-flavored smoke.",
+    "reference": "Minions",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 134,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Our server's core logic just went rogue, much like a lamp bouncing down a hallway. We're trying to get it back on track.",
+    "reference": "Pixar (General)",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 135,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "It's not us, it's the gateway! It looks like Vanellope tried to glitch through the connection to the next game.",
+    "reference": "Wreck-It Ralph",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 136,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "Our server tried to talk to the other server, but the message got all gobbled up like a Krabby Patty. Mmm, Krabby Patty.",
+    "reference": "SpongeBob SquarePants",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 137,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "Service 'unavailab-le'? Oh, we're all out on a 'Ba-na-na' break. Come back after our snack time!",
+    "reference": "Minions",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 138,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "The service is unavailable. Our server is currently powered by a dinosaur taking its lunch break. Yabba Dabba Doo!",
+    "reference": "The Flintstones",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 139,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "We're waiting for another server... It seems to be experiencing a serious 'no capes!' moment and is terribly delayed.",
+    "reference": "The Incredibles",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 140,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "The upstream server is probably still floating away with a house full of balloons. We'll get to your request eventually!",
+    "reference": "Up",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 141,
+    "errorNumber": "200 OK",
+    "errorText": "Success! The portal opened and closed without a single Demogorgon. Friends don't lie, and neither does this status.",
+    "reference": "Stranger Things",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 142,
+    "errorNumber": "200 OK",
+    "errorText": "Request processed successfully. It's creepy, kooky, mysterious, and spooky. Just how we like our data.",
+    "reference": "The Addams Family",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 143,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "This page has moved permanently... to a dimension not only of sight and sound but of mind. Beyond that, the server just moved it.",
+    "reference": "The Twilight Zone",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 144,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "The content has been permanently bio-exorcised to a new location. Say its name three times to find it again (maybe).",
+    "reference": "Beetlejuice",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 145,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Your request syntax is... well, it looks like a deadlight. Terrifyingly malformed and utterly useless.",
+    "reference": "IT (Pennywise)",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 146,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Bad request! Your query just tried to rotate its head 360 degrees. We're going to need an older server and a young priest.",
+    "reference": "The Exorcist",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 147,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Who ya gonna call? Not us, without proper authorization! Access denied.",
+    "reference": "Ghostbusters",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 148,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Unauthorized access. You need more than just a dream to get in here. And maybe a claw glove.",
+    "reference": "A Nightmare on Elm Street",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 149,
+    "errorNumber": "403 Forbidden",
+    "errorText": "Forbidden! This content is protected by Sheriff Hopper and a very large government conspiracy. Go home, chief.",
+    "reference": "Stranger Things",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 150,
+    "errorNumber": "403 Forbidden",
+    "errorText": "Access forbidden. This camp is closed. Especially after dark. Jason's watching.",
+    "reference": "Friday the 13th",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 151,
+    "errorNumber": "404 Not Found",
+    "errorText": "The page you are looking for has floated away. Maybe you'll find it in the sewers of Derry, Maine.",
+    "reference": "IT (Pennywise)",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 152,
+    "errorNumber": "404 Not Found",
+    "errorText": "Page not found. It seems to have been absorbed into the television static. 'They're here!'",
+    "reference": "Poltergeist",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 153,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "You tried that with a `GET`? That's like trying to ask nicely. You need a different method... perhaps involving a chainsaw.",
+    "reference": "The Texas Chainsaw Massacre",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 154,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "Incorrect method. You're trying to use a gentle nudge, when what you need is a headshot. Use the right approach!",
+    "reference": "The Walking Dead",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 155,
+    "errorNumber": "410 Gone",
+    "errorText": "This page isn't just missing, it's been possessed and walked away. There's probably a 'Good Guy' doll involved.",
+    "reference": "Chucky (Child's Play)",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 156,
+    "errorNumber": "410 Gone",
+    "errorText": "The content has been permanently dusted. No ashes, no trace, just gone. Poof!",
+    "reference": "Buffy the Vampire Slayer",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 157,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I am a teapot. I merely serve tea, preferably with a pinch of cyanide. Your web request is simply not kooky enough.",
+    "reference": "The Addams Family",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 158,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I am a teapot, dearie! Brewing potions, not pages. Perhaps you'd prefer a 'virgin's light' to guide you elsewhere?",
+    "reference": "Hocus Pocus",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 159,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Woah there, partner! You're hitting us faster than Ecto-1 speeding to a haunting. We're slimed!",
+    "reference": "Ghostbusters",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 160,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Too many requests! The server is getting a 'What's your favorite scary movie?' vibe and is starting to get overwhelmed.",
+    "reference": "Scream",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 161,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Our server just had an internal error. It appears to be levitating and speaking Latin backwards. Send help.",
+    "reference": "The Exorcist",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 162,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Our server encountered an internal error. All work and no play makes the server a dull boy... and then it broke.",
+    "reference": "The Shining",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 163,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "It's not us, it's the gateway! The connection to the upstream server is flickering between dimensions.",
+    "reference": "Stranger Things",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 164,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "Our server tried to talk to the other server, but the signal was garbled by too much static and phantom voices.",
+    "reference": "Poltergeist",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 165,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "The service is unavailable. Our server is currently busy crawling out of a well or making a very unsettling phone call.",
+    "reference": "The Grudge/Ringu",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 166,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "The service is unavailable. All staff have been converted into zombies. Expect slow response times and a craving for brains.",
+    "reference": "Dawn of the Dead",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 167,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "We're waiting for another server... It seems to be trapped in a nightmare loop and just can't wake up.",
+    "reference": "A Nightmare on Elm Street",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 168,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "The upstream server is experiencing a gateway timeout. It's probably just busy committing all available resources to... *anarchy*.",
+    "reference": "The Purge",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 169,
+    "errorNumber": "200 OK",
+    "errorText": "Success! We're gonna need a bigger boat... of bandwidth for this much data, but it worked!",
+    "reference": "Jaws",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 170,
+    "errorNumber": "200 OK",
+    "errorText": "Request processed. Looks like you crawled through a river of *shhh...* spaghetti code and came out clean on the other side.",
+    "reference": "The Shawshank Redemption",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 171,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "This page isn't here anymore. It's 'sick' and has permanently moved to the Art Institute, probably pretending to be a museum-goer.",
+    "reference": "Ferris Bueller's Day Off",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 172,
+    "errorNumber": "301 Moved Permanently",
+    "errorText": "Great Scott! This page has been permanently relocated... to a different point in the content timeline.",
+    "reference": "Back to the Future",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 173,
+    "errorNumber": "400 Bad Request",
+    "errorText": "That's just, like, your opinion, man. Also, your request syntax is out of its element.",
+    "reference": "The Big Lebowski",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 174,
+    "errorNumber": "400 Bad Request",
+    "errorText": "Your request looks like a Royale with Cheese. Interesting, but totally a bad request.",
+    "reference": "Pulp Fiction",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 175,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "Unauthorized. Hello, Clarice. You'll need more than just good manners to access this resource.",
+    "reference": "The Silence of the Lambs",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 176,
+    "errorNumber": "401 Unauthorized",
+    "errorText": "You come to us, on the day of our server's update, for this request? Without authorization? Unacceptable.",
+    "reference": "The Godfather",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 177,
+    "errorNumber": "403 Forbidden",
+    "errorText": "You shall not pass! This content is forbidden to all but those of the Fellowship... or those with the correct permissions.",
+    "reference": "Lord of the Rings",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 178,
+    "errorNumber": "403 Forbidden",
+    "errorText": "Forbidden. Only Imperial stormtroopers are so precise... and authorized to view this. Move along.",
+    "reference": "Star Wars (Original Trilogy)",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 179,
+    "errorNumber": "404 Not Found",
+    "errorText": "Page not found. We've closed the internet, but it keeps popping up somewhere else. Probably in open water.",
+    "reference": "Jaws",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 180,
+    "errorNumber": "404 Not Found",
+    "errorText": "The page you are looking for has vanished. It's not in Venice, nor Alexandretta. You chose... poorly.",
+    "reference": "Indiana Jones and the Last Crusade",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 181,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "You tried that with a `GET`? Ni! That is not the proper method. We require... a shrubbery!",
+    "reference": "Monty Python and the Holy Grail",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 182,
+    "errorNumber": "405 Method Not Allowed",
+    "errorText": "You're trying to `POST` to that? Yippee-ki-yay, that's the wrong method. This needs a `PUT` or nothing at all!",
+    "reference": "Die Hard",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 183,
+    "errorNumber": "410 Gone",
+    "errorText": "This page isn't just gone, it's tragically sunk to the bottom of the digital ocean. Never to be seen again.",
+    "reference": "Titanic",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 184,
+    "errorNumber": "410 Gone",
+    "errorText": "This content ran and ran, and then it was gone. Life is like a box of chocolates; you never know which page you're gonna get... or lose.",
+    "reference": "Forrest Gump",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 185,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I am a teapot. My name is Mrs. Potts, and I brew tea, dear. I do not serve web requests. Would you like a biscuit?",
+    "reference": "Beauty and the Beast",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 186,
+    "errorNumber": "418 I'm a Teapot",
+    "errorText": "I'm a teapot! It's always tea time here, not request-processing time. You're entirely bonkers, but I'll tell you a secret: all the best people are.",
+    "reference": "Alice in Wonderland (Mad Hatter)",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 187,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Woah! Too many requests. You're hitting us faster than Neo dodging bullets. Slow down or the simulation will glitch.",
+    "reference": "The Matrix",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 188,
+    "errorNumber": "429 Too Many Requests",
+    "errorText": "Are you not entertained?! You're making too many requests! Give us some time to prepare the arena for your next query.",
+    "reference": "Gladiator",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 189,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "Our server just had an internal error. It appears HAL is refusing to open the pod bay doors for your request.",
+    "reference": "2001: A Space Odyssey",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 190,
+    "errorNumber": "500 Internal Server Error",
+    "errorText": "An internal server error occurred. There was a sudden... *shower scene* in our database. We're cleaning up the mess.",
+    "reference": "Psycho",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 191,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "It's not us, it's the other gateway! The portal to the upstream server is spewing ectoplasm and seems to be out of order.",
+    "reference": "Ghostbusters",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 192,
+    "errorNumber": "502 Bad Gateway",
+    "errorText": "Our server tried to talk to the upstream server, but the communication was badly garbled. Perhaps they told it: 'No, *I* am your father!'",
+    "reference": "Star Wars (The Empire Strikes Back)",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 193,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "The horror... the horror! The service is unavailable. We're currently lost upriver in Cambodia, trying to find Colonel Kurtz.",
+    "reference": "Apocalypse Now",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 194,
+    "errorNumber": "503 Service Unavailable",
+    "errorText": "Service unavailable. Our server is currently setting up elaborate booby traps to protect itself from intrusive requests.",
+    "reference": "Home Alone",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 195,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "We're waiting for another server... It's stranded on a remote island, slowly going mad, and probably talking to a volleyball.",
+    "reference": "Cast Away",
+    "source": "Gemini 2.5 Flash (Thinking)"
+  },
+  {
+    "Id": 196,
+    "errorNumber": "504 Gateway Timeout",
+    "errorText": "The upstream server is experiencing a gateway timeout. It seems to be trapped in a dream within a dream within another dream.",
+    "reference": "Inception",
+    "source": "Gemini 2.5 Flash (Thinking)"
   }
 ]
