@@ -113,9 +113,9 @@
       const reference = obj.reference ?? obj.Reference ?? '—';
       const source = obj.source ?? obj.Source ?? '—';
 
-      errorTitle.textContent = text.length > 80 ? text.slice(0, 80) + '…' : text;
+      errorTitle.textContent = errorNum.substring(5, errorNum.length)//text.length > 80 ? text.slice(0, 80) + '…' : text;
       errorId.textContent = 'ID: ' + (Id ?? '—');
-      errorNumber.textContent = '#' + (errorNum ?? '—');
+      errorNumber.textContent = '#' + (errorNum.substring(0, 4) ?? '—');
       errorText.textContent = text;
       errorReference.textContent = reference;
       errorSource.textContent = source;
