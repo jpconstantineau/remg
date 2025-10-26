@@ -33,7 +33,7 @@
   <div class="card-footer text-muted">
 		  <small class="text-muted">Reference: <span id="errorReference">—</span></small><br>
 		  <small class="text-muted">Source: <span id="errorSource">—</span></small>
-	  		<small class="text-muted">Selected at <span id="selectedAt">—</span></small>
+	  	
   </div>
 
 	
@@ -41,6 +41,7 @@
 		<div class="text-end">
 			<div class="muted"><small id="errorId">404</small></div>
 			<div class="muted"><small id="auto-refresh-note">Auto-refresh in 60s</small></div>
+			<div class="muted"><small id="selectedAt">Selected at </small></div>
 			<div id="fetchErrorAlert" class="alert alert-warning mt-3 d-none" role="alert"></div>
 		</div>	
 	</div>
@@ -119,7 +120,7 @@
       errorText.textContent = text;
       errorReference.textContent = reference;
       errorSource.textContent = source;
-      selectedAt.textContent = new Date().toLocaleString();
+      selectedAt.textContent = 'Selected at: ' + new Date().toLocaleString();
 
       // (Re)start the auto-reload countdown
       startAutoReloadCountdown();
