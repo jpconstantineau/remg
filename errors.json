@@ -1370,5 +1370,368 @@
     "errorText": "The upstream server is experiencing a gateway timeout. It seems to be trapped in a dream within a dream within another dream.",
     "reference": "Inception",
     "source": "Gemini 2.5 Flash (Thinking)"
-  }
+  },
+  {
+
+"Id": "1",
+
+"errorNumber": "400",
+
+"errorText": "Bad Request: Your browser sent a request that looked like it needed therapy.",
+
+"reference": "The IT Crowd",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "2",
+
+"errorNumber": "400",
+
+"errorText": "Bad Request: Missing semicolon. Or dignity. Hard to tell which.",
+
+"reference": "Office (deadpan sarcasm)",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "3",
+
+"errorNumber": "401",
+
+"errorText": "Unauthorized: You shall not pass — unless you have cookies and a token.",
+
+"reference": "Lord of the Rings",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "4",
+
+"errorNumber": "401",
+
+"errorText": "Unauthorized: Credentials expired. Time to go on a quest for the forgotten password.",
+
+"reference": "Indiana Jones",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "5",
+
+"errorNumber": "403",
+
+"errorText": "Forbidden: The admin said no. The logs say 'because I said so.'",
+
+"reference": "Mean Boss Trope",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "6",
+
+"errorNumber": "403",
+
+"errorText": "Forbidden: You don't have permission to access this. Even your VPN is ashamed.",
+
+"reference": "The Matrix",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "7",
+
+"errorNumber": "404",
+
+"errorText": "Not Found: The file went out for coffee and never came back.",
+
+"reference": "Sitcom Timing",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "8",
+
+"errorNumber": "404",
+
+"errorText": "Not Found: We looked everywhere. Even under the couch cushions. Still nothing.",
+
+"reference": "Home Alone",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "9",
+
+"errorNumber": "408",
+
+"errorText": "Request Timeout: Your request took a nap and missed its deadline.",
+
+"reference": "Office Deadlines",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "10",
+
+"errorNumber": "408",
+
+"errorText": "Request Timeout: The server waited. The client ghosted. It's complicated.",
+
+"reference": "Modern Romance Comedy",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "11",
+
+"errorNumber": "409",
+
+"errorText": "Conflict: Two versions walked into a merge and neither left alive.",
+
+"reference": "Git Merge Wars",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "12",
+
+"errorNumber": "409",
+
+"errorText": "Conflict: Somebody edited the same line like a hero in a buddy cop movie.",
+
+"reference": "Action Buddy Cop",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "13",
+
+"errorNumber": "410",
+
+"errorText": "Gone: The resource has left the building. Do not try to resurrect it.",
+
+"reference": "No Country For Old Files",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "14",
+
+"errorNumber": "410",
+
+"errorText": "Gone: Permanently removed. Like your last attempt to fix production at 2AM.",
+
+"reference": "Late-Night Ops",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "15",
+
+"errorNumber": "418",
+
+"errorText": "I'm a teapot: I'm a little teapot, short and stout — I refuse to brew your coffee.",
+
+"reference": "RFC 2324 (Hyper Text Coffee Pot Control Protocol)",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "16",
+
+"errorNumber": "418",
+
+"errorText": "I'm a teapot: The server is small and offended by your expectations.",
+
+"reference": "Monty Python Absurdity",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "17",
+
+"errorNumber": "429",
+
+"errorText": "Too Many Requests: Slow down, you're rate-limiting your own dignity.",
+
+"reference": "Rate Limit Rage",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "18",
+
+"errorNumber": "429",
+
+"errorText": "Too Many Requests: Your script is hitting like it's trying to win a hackathon in 5 minutes.",
+
+"reference": "Hackathon Rush",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "19",
+
+"errorNumber": "500",
+
+"errorText": "Internal Server Error: Something died inside the server and it's not coming back.",
+
+"reference": "Dark Comedy",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "20",
+
+"errorNumber": "500",
+
+"errorText": "Internal Server Error: Our code had a fight with reality. Reality won.",
+
+"reference": "Debugging Meltdown",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "21",
+
+"errorNumber": "502",
+
+"errorText": "Bad Gateway: Upstream said 'no' and downstream shrugged.",
+
+"reference": "Network Soap Opera",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "22",
+
+"errorNumber": "502",
+
+"errorText": "Bad Gateway: The backend sent back something that can't be abbreviated into English.",
+
+"reference": "Tech Support Babel",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "23",
+
+"errorNumber": "503",
+
+"errorText": "Service Unavailable: We're offline for maintenance. Or for existential reflection.",
+
+"reference": "Philosophical Downtime",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "24",
+
+"errorNumber": "503",
+
+"errorText": "Service Unavailable: Too many users. It's basically a digital nightclub in here.",
+
+"reference": "Club Night Metaphor",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "25",
+
+"errorNumber": "504",
+
+"errorText": "Gateway Timeout: The gateway fell asleep waiting for its coffee.",
+
+"reference": "Morning Commute",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+},
+
+{
+
+"Id": "26",
+
+"errorNumber": "504",
+
+"errorText": "Gateway Timeout: Backend never responded. It ghosted harder than your last date.",
+
+"reference": "Modern Dating",
+
+"source": "ChatGPT5 Mini (Thinking)"
+
+}
 ]
