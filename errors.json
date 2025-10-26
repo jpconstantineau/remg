@@ -1733,5 +1733,636 @@
 
 "source": "ChatGPT5 Mini (Thinking)"
 
-}
+},
+  {
+    "Id": "1",
+    "errorNumber": "400",
+    "errorText": "Bad Request: This request makes less sense than Roy trying to explain a networking outage.",
+    "reference": "The IT Crowd",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "2",
+    "errorNumber": "400",
+    "errorText": "Bad Request: Something broke the request — probably like when Milton kept getting moved and nobody knew why.",
+    "reference": "Office Space",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "3",
+    "errorNumber": "401",
+    "errorNumber": "401",
+    "errorText": "Unauthorized: No credentials — it's basically you're trying to get into the basement without Jen's permission.",
+    "reference": "The IT Crowd",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "4",
+    "errorNumber": "401",
+    "errorText": "Unauthorized: That's a 'Michael Scott-level' bad login — confident, wrong, and emotionally committed.",
+    "reference": "The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "5",
+    "errorNumber": "403",
+    "errorText": "Forbidden: Access denied. Management said 'no' with the same finality as Lumberg telling Peter to come in on Saturday.",
+    "reference": "Office Space",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "6",
+    "errorNumber": "403",
+    "errorText": "Forbidden: You don't have permission — like trying to touch Moss's 'secure' server rack without the sacred checklist.",
+    "reference": "The IT Crowd",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "7",
+    "errorNumber": "404",
+    "errorText": "Not Found: The file is gone. It's like when Michael declared 'where are the files?' and they truly were nowhere to be found.",
+    "reference": "The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "8",
+    "errorNumber": "404",
+    "errorText": "Not Found: Looks like someone (probably Tom) took it and said 'it's for the good of the startup.' Not found.",
+    "reference": "Office Space / Startup Silliness",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "9",
+    "errorNumber": "408",
+    "errorText": "Request Timeout: The client waited so long the server started doing an impromptu Moss monologue about processes.",
+    "reference": "The IT Crowd",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "10",
+    "errorNumber": "408",
+    "errorText": "Request Timeout: Request took longer than Michael's 'that's what she said' timing — and now it's awkward.",
+    "reference": "The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "11",
+    "errorNumber": "409",
+    "errorText": "Conflict: Two edits collided like two coworkers both fighting for the same stapler — and neither will back down.",
+    "reference": "Office Space / The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "12",
+    "errorNumber": "409",
+    "errorText": "Conflict: Merge conflict — like Roy and Moss arguing over who's right about a LAN cable: loud, stubborn, and pointless.",
+    "reference": "The IT Crowd",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "13",
+    "errorNumber": "410",
+    "errorText": "Gone: Permanently removed. Like Michael's Dundies trophy after a 'careful' relocation — it's not coming back.",
+    "reference": "The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "14",
+    "errorNumber": "410",
+    "errorText": "Gone: The resource has left the building — probably shipped off to a cubicle farm, never to return.",
+    "reference": "Office Space",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "15",
+    "errorNumber": "418",
+    "errorText": "I'm a teapot: Sorry, this server is a teapot — it will refuse your coffee request and offer passive-aggressive steam instead.",
+    "reference": "The IT Crowd (absurd office humor) / RFC Easter Egg",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "16",
+    "errorNumber": "418",
+    "errorText": "I'm a teapot: Like Milton protecting his stapler, this server staunchly refuses to brew your beverage.",
+    "reference": "Office Space",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "17",
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: You're hammering the API like an intern trying to impress Michael by sending 300 emails at once.",
+    "reference": "The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "18",
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: Rate-limited — stop hitting it like Roy hitting the 'deploy' button after three Red Bulls.",
+    "reference": "The IT Crowd",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "19",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: The server had a meltdown rivaling Milton finding out yet another thing was 'moved.'",
+    "reference": "Office Space",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "20",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: Our code rebelled like Moss when someone touches his keyboard without permission.",
+    "reference": "The IT Crowd",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "21",
+    "errorNumber": "502",
+    "errorText": "Bad Gateway: Upstream service said 'nope' like a clueless manager forwarding blame to someone else.",
+    "reference": "The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "22",
+    "errorNumber": "502",
+    "errorText": "Bad Gateway: The gateway returned nonsense — like trying to explain cloud costs to Lumberg.",
+    "reference": "Office Space",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "23",
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: We're down for maintenance — think of it as the server taking a much-needed 'day off' like the staff picnic gone wrong.",
+    "reference": "The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "24",
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: The service is out of order. Moss would say 'Have you tried turning it off and on again?' — we did, twice.",
+    "reference": "The IT Crowd",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "25",
+    "errorNumber": "504",
+    "errorText": "Gateway Timeout: The backend took forever — like waiting for approval from an executive who only responds in meetings.",
+    "reference": "The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "26",
+    "errorNumber": "504",
+    "errorText": "Gateway Timeout: Backend ghosted the request like someone avoiding TPS report conversations.",
+    "reference": "Office Space / The Office",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "27",
+    "errorNumber": "400",
+    "errorText": "Bad Request: That payload is more scrambled than Spock trying to explain human emotions.",
+    "reference": "Star Trek",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "28",
+    "errorNumber": "400",
+    "errorText": "Bad Request: Request syntax corrupted — looks like it was hit by a lightsaber.",
+    "reference": "Star Wars",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "29",
+    "errorNumber": "401",
+    "errorText": "Unauthorized: No access — your token expired faster than a replicant's patience.",
+    "reference": "Blade Runner",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "30",
+    "errorNumber": "401",
+    "errorText": "Unauthorized: You need permission credentials. Even the Doctor wouldn't let you in without a sonic.",
+    "reference": "Doctor Who",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "31",
+    "errorNumber": "403",
+    "errorText": "Forbidden: Access denied — the ship's quarantine protocols are stricter than Ripley's.",
+    "reference": "Alien",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "32",
+    "errorNumber": "403",
+    "errorText": "Forbidden: This is off-limits — even the Mandalorian won't break this code (and he breaks a lot).",
+    "reference": "The Mandalorian",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "33",
+    "errorNumber": "404",
+    "errorText": "Not Found: The resource is missing — vanished like a transport gate on FTL jump day.",
+    "reference": "The Expanse",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "34",
+    "errorNumber": "404",
+    "errorText": "Not Found: We searched the whole system — it's gone like the Doctor's TARDIS when it doesn't feel like helping.",
+    "reference": "Doctor Who",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "35",
+    "errorNumber": "418",
+    "errorText": "I'm a teapot: This endpoint is a teapot — powered by arc reactors, not brewing tech.",
+    "reference": "Iron Man (sci-fi-adjacent tech)",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "36",
+    "errorNumber": "418",
+    "errorText": "I'm a teapot: The server refuses — it's in stealth mode like an invisible cloaking device.",
+    "reference": "Star Wars (cloaking tech vibes)",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "37",
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: You're pinging the API like a starship spamming the subspace channel — calm the warp drive.",
+    "reference": "Star Trek",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "38",
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: Rate limit hit — your botnet's trying to terraform the endpoint and failed.",
+    "reference": "Battlestar Galactica (terraforming/colonization themes)",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "39",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: The ship's core had a meltdown; someone forgot to appease the machine god.",
+    "reference": "Warhammer 40K (sci-fi machine cult vibe)",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "40",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: Something in the stack rebelled like a sentient AI deciding it prefers poetry.",
+    "reference": "Westworld / Ex Machina vibes",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "41",
+    "errorNumber": "502",
+    "errorText": "Bad Gateway: Upstream returned gibberish — like receiving a transmission through an ion storm.",
+    "reference": "The Expanse",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "42",
+    "errorNumber": "502",
+    "errorText": "Bad Gateway: The proxy and backend are arguing in Klingon; nothing useful came through.",
+    "reference": "Star Trek",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "43",
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: The service is offline for repairs — think Hyperspace maintenance day.",
+    "reference": "Star Wars",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "44",
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: Server undergoing upgrades — installing anti-gravity and existential firmware.",
+    "reference": "Black Mirror / general sci-fi tech upgrade humor",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "45",
+    "errorNumber": "504",
+    "errorText": "Gateway Timeout: Backend took too long — like waiting for a hyperdrive to spool after a bad jump.",
+    "reference": "Star Wars / The Expanse hybrid",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "46",
+    "errorNumber": "504",
+    "errorText": "Gateway Timeout: The service ghosted us like an abandoned colony light-years away.",
+    "reference": "Battlestar Galactica / classic space-opera",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "47",
+    "errorNumber": "404",
+    "errorText": "Not Found: This resource wandered off like a Minion chasing a banana — cute, chaotic, and now missing.",
+    "reference": "Minions / Despicable Me",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "48",
+    "errorNumber": "404",
+    "errorText": "Not Found: We checked the toy box, the attic, and under Andy's bed — still gone. Buzz suggests it's in another galaxy.",
+    "reference": "Toy Story",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "49",
+    "errorNumber": "418",
+    "errorText": "I'm a teapot: This endpoint is a teapot — the Minions tried to brew coffee and now the server only speaks banana.",
+    "reference": "Minions",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "50",
+    "errorNumber": "418",
+    "errorText": "I'm a teapot: The server refuses your request — it's sulking like Shrek after someone moved his swamp furniture.",
+    "reference": "Shrek",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "51",
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: Slow down — you're spamming the API like a Minion spamming the banana button.",
+    "reference": "Minions",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "52",
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: Rate limit hit — like when the toys all try to escape at once, it's chaos and nobody gets out.",
+    "reference": "Toy Story",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "53",
+    "errorNumber": "403",
+    "errorText": "Forbidden: Access denied — even Gru wouldn't let you into the lab without proper villain clearance.",
+    "reference": "Despicable Me",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "54",
+    "errorNumber": "403",
+    "errorText": "Forbidden: This area is restricted — Donkey tried to charm his way in and ended up doing interpretive dances.",
+    "reference": "Shrek",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "55",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: Something exploded internally — probably a Minion experiment labeled 'definitely safe.'",
+    "reference": "Minions / Despicable Me",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "56",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: The backend melted down like Olaf in direct sunlight — optimistic but fragile.",
+    "reference": "Frozen",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "57",
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: We're closed for mischief — Minions are on strike until someone brings more bananas.",
+    "reference": "Minions",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "58",
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: The system's on vacation — like Woody and friends after a long day of toy duty.",
+    "reference": "Toy Story",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "59",
+    "errorNumber": "400",
+    "errorText": "Bad Request: That request is as corrupted as the videotape — please don't say 'seven days.'",
+    "reference": "The Ring",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "60",
+    "errorNumber": "400",
+    "errorText": "Bad Request: Your payload is stranger than a Demogorgon in the pantry.",
+    "reference": "Stranger Things",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "61",
+    "errorNumber": "401",
+    "errorText": "Unauthorized: You don't have clearance — this door only opens if you whisper the password like a ghost.",
+    "reference": "The Haunting of Hill House",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "62",
+    "errorNumber": "401",
+    "errorText": "Unauthorized: Access denied. Even Mulder couldn't conjure credentials from thin air.",
+    "reference": "The X-Files",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "63",
+    "errorNumber": "403",
+    "errorText": "Forbidden: Entry blocked — this hallway's protected like the library in Buffy when vampire drama peaks.",
+    "reference": "Buffy the Vampire Slayer",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "64",
+    "errorNumber": "403",
+    "errorText": "Forbidden: The system says 'no' — even Ghostbusters' proton packs can't force this lock.",
+    "reference": "Ghostbusters",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "65",
+    "errorNumber": "404",
+    "errorText": "Not Found: The resource vanished like a house guest after the lights go out.",
+    "reference": "Poltergeist",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "66",
+    "errorNumber": "404",
+    "errorText": "Not Found: We checked the attic, basement, and Upside Down — still missing.",
+    "reference": "Stranger Things",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "67",
+    "errorNumber": "418",
+    "errorText": "I'm a teapot: The server thinks it's a haunted teapot — it bubbles ominously and refuses to brew.",
+    "reference": "Beetlejuice (surreal spooky vibes)",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "68",
+    "errorNumber": "418",
+    "errorText": "I'm a teapot: This endpoint's possessed — it will only pour spectral tea after midnight.",
+    "reference": "American Horror Story",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "69",
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: Slow down — you're knocking like someone summoning a demon and the server's not into it.",
+    "reference": "The Conjuring",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "70",
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: Rate limit reached — like chanting the same spell too many times, something bad might happen.",
+    "reference": "Supernatural",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "71",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: The backend experienced a poltergeist — objects (and processes) are flying everywhere.",
+    "reference": "Poltergeist",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "72",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: Something in the stack turned into a werewolf at full moon — unpredictable and loud.",
+    "reference": "The Wolf Man / classic horror trope",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "73",
+    "errorNumber": "502",
+    "errorText": "Bad Gateway: Upstream returned static — like a radio picking up the other side's screams.",
+    "reference": "The Exorcist (audio/possession vibes)",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "74",
+    "errorNumber": "502",
+    "errorText": "Bad Gateway: The proxy and server are out of sync — think parallel universes with bad Wi‑Fi.",
+    "reference": "Twin Peaks / spooky surrealism",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "75",
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: We're closed for paranormal investigation — team on-site with EMF meters and too much coffee.",
+    "reference": "Ghost Hunters",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "76",
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: Server taking a séance break — please come back after we negotiate with the spirits.",
+    "reference": "The Haunting of Hill House",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "77",
+    "errorNumber": "504",
+    "errorText": "Gateway Timeout: The backend is stuck in a time loop — someone forgot to break the curse.",
+    "reference": "Happy Death Day (time-loop horror)",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "78",
+    "errorNumber": "504",
+    "errorText": "Gateway Timeout: The upstream vanished into fog — like walkers in the distance refusing to respond.",
+    "reference": "The Walking Dead",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "79",
+    "errorNumber": "408",
+    "errorText": "Request Timeout: The client took too long — they probably paused to check under the bed for monsters.",
+    "reference": "Goosebumps / kids' spooky adventure vibes",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "80",
+    "errorNumber": "409",
+    "errorText": "Conflict: Two processes are battling like hunters vs. vampires — only one will leave with the log file.",
+    "reference": "Buffy the Vampire Slayer",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "81",
+    "errorNumber": "404",
+    "errorText": "Not Found: The resource is missing — it's gone deeper than the waterline when Jaws shows up.",
+    "reference": "Jaws",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "82",
+    "errorNumber": "503",
+    "errorText": "Service Unavailable: The service is taking a break — chief just called for a bigger boat and more maintenance.",
+    "reference": "Jaws",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "83",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: Something ate the database — it left a bite mark and a chilling theme tune.",
+    "reference": "Jaws",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "84",
+    "errorNumber": "401",
+    "errorText": "Unauthorized: You need clearance. Unless you can get Clarice to ask nicely, no entry.",
+    "reference": "The Silence of the Lambs",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "85",
+    "errorNumber": "403",
+    "errorText": "Forbidden: This area is off-limits. Even Hannibal would find this level of restraint impressive.",
+    "reference": "The Silence of the Lambs",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "86",
+    "errorNumber": "408",
+    "errorText": "Request Timeout: The client took so long we started hearing lullabies — someone should have warned Buffalo Bill.",
+    "reference": "The Silence of the Lambs",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "87",
+    "errorNumber": "429",
+    "errorText": "Too Many Requests: You're hammering the endpoint like a frantic search party — chill before the shark notices.",
+    "reference": "Jaws",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "88",
+    "errorNumber": "502",
+    "errorText": "Bad Gateway: The upstream returned weird stuff — like a voicemail from Hannibal asking for feedback.",
+    "reference": "The Silence of the Lambs",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "89",
+    "errorNumber": "504",
+    "errorText": "Gateway Timeout: The backend drifted away — probably following something that went 'dun... dun.'",
+    "reference": "Jaws (theme hum joke)",
+    "source": "ChatGPT5 Mini (Thinking)"
+  },
+  {
+    "Id": "90",
+    "errorNumber": "500",
+    "errorText": "Internal Server Error: The system decided to get creative — disturbing logs, polite conversations, and oddly specific silence.",
+    "reference": "The Silence of the Lambs",
+    "source": "ChatGPT5 Mini (Thinking)"
+  }
 ]
