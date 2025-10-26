@@ -3865,5 +3865,1239 @@
     "errorText": "504 Error: Like waiting for Windows updates, this gateway is taking its sweet time to 'improve your experience'.",
     "reference": "Office Space",
     "source": "Qwen 3 235B (Thinking)"
+  },
+  {
+    "Id": 1,
+    "errorNumber": 400,
+    "errorText": "Bad Request - Your request was so malformed, even our error handler's error handler threw an exception",
+    "reference": "Inception",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 2,
+    "errorNumber": 400,
+    "errorText": "Bad Request - We asked for JSON, you sent us a word document with Comic Sans",
+    "reference": "Office Space",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 3,
+    "errorNumber": 401,
+    "errorText": "Unauthorized - Your credentials are weaker than a password that's just 'password'",
+    "reference": "The Matrix",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 4,
+    "errorNumber": 401,
+    "errorText": "Unauthorized - Authentication failed. Maybe try not using your dog's name as the password",
+    "reference": "I, Robot",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 5,
+    "errorNumber": 403,
+    "errorText": "Forbidden - You lack the privilege. Admin is watching you fail from their office",
+    "reference": "Big Brother (1984)",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": 403,
+    "errorText": "Forbidden - Access denied. This endpoint is more secured than Fort Knox's WiFi password",
+    "reference": "Mission: Impossible",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": 404,
+    "errorText": "Not Found - The resource you're looking for is lost. Have you checked the production server?",
+    "reference": "Lost",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": 404,
+    "errorText": "Not Found - Just like my will to live after the last sprint, this endpoint doesn't exist",
+    "reference": "Groundhog Day",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": 405,
+    "errorText": "Method Not Allowed - You're trying to POST to a GET-only endpoint. That's not how this works",
+    "reference": "Mean Girls",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": 405,
+    "errorText": "Method Not Allowed - DELETE, PUT, and PATCH walked into a bar. GET ordered a drink. Only GET was served",
+    "reference": "Bar Jokes",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": 408,
+    "errorText": "Request Timeout - You've been thinking about this request for so long, we gave up",
+    "reference": "Inception",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": 408,
+    "errorText": "Request Timeout - Your request is still loading. We've reincarnated the server twice",
+    "reference": "Doctor Who",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": 409,
+    "errorText": "Conflict - Two PUT requests walked into a database. Neither left intact",
+    "reference": "West Side Story",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": 409,
+    "errorText": "Conflict - Your data has irreconcilable differences. A merge conflict has filed for divorce",
+    "reference": "Kramer vs. Kramer",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": 410,
+    "errorText": "Gone - This resource has been yeeted into the void and will never return",
+    "reference": "Thanos (MCU)",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": 410,
+    "errorText": "Gone - The resource you seek has moved on to a better API in the cloud",
+    "reference": "The Sixth Sense",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": 416,
+    "errorText": "Range Not Satisfiable - You asked for bytes 5000-3000. Even our math library is confused",
+    "reference": "Primer",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": 416,
+    "errorText": "Range Not Satisfiable - That byte range doesn't exist in this dimension",
+    "reference": "Interstellar",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": 417,
+    "errorText": "Expectation Failed - We expected better from you. We're disappointed",
+    "reference": "Disappointed Dad",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": 417,
+    "errorText": "Expectation Failed - Your Expect header was wrong. Did you come from Stack Overflow?",
+    "reference": "Liar Liar",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 21,
+    "errorNumber": 418,
+    "errorText": "I'm a teapot - BREW ME A COFFEE. No wait, I'm a teapot. Send hot water",
+    "reference": "Hitchhiker's Guide to the Galaxy",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 22,
+    "errorNumber": 418,
+    "errorText": "I'm a teapot - This endpoint decided to have an existential crisis on April Fools' Day",
+    "reference": "Toy Story",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 23,
+    "errorNumber": 422,
+    "errorText": "Unprocessable Entity - The syntax is valid, but the logic is as broken as a Bethesda game on launch day",
+    "reference": "The Elder Scrolls",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 24,
+    "errorNumber": 422,
+    "errorText": "Unprocessable Entity - Your data structure doesn't make sense. Even the AI is confused",
+    "reference": "2001: A Space Odyssey",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 25,
+    "errorNumber": 429,
+    "errorText": "Too Many Requests - You're making requests faster than a bot farm. Slow down, speedracer",
+    "reference": "Speed Racer",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 26,
+    "errorNumber": 429,
+    "errorText": "Too Many Requests - You've been rate-limited harder than a Twitter account that said the quiet part loud",
+    "reference": "Twitter/X",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 27,
+    "errorNumber": 451,
+    "errorText": "Unavailable For Legal Reasons - We're in international waters now. Even we can't access this",
+    "reference": "Pirates of the Caribbean",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 28,
+    "errorNumber": 451,
+    "errorText": "Unavailable For Legal Reasons - A very aggressive legal team has locked this endpoint",
+    "reference": "Legally Blonde",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 29,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - Something went wrong. Narrator: Something had gone very wrong",
+    "reference": "Arrested Development",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 30,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - A wild exception appeared. The server used Panic(). It's super effective!",
+    "reference": "Pokémon",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 31,
+    "errorNumber": 502,
+    "errorText": "Bad Gateway - The gateway is bad. Bad gateway. No biscuit",
+    "reference": "Homestar Runner",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 32,
+    "errorNumber": 502,
+    "errorText": "Bad Gateway - The gateway took the blue pill and lost touch with reality",
+    "reference": "The Matrix",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 33,
+    "errorNumber": 503,
+    "errorText": "Service Unavailable - We're down for maintenance, or perhaps we're just ghosting you",
+    "reference": "The Sixth Sense",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 34,
+    "errorNumber": 503,
+    "errorText": "Service Unavailable - We've gone dark. The DevOps team is still rebooting us with a rubber chicken",
+    "reference": "The IT Crowd",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 35,
+    "errorNumber": 504,
+    "errorText": "Gateway Timeout - The gateway took so long to respond, it aged 10 years",
+    "reference": "Interstellar",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 36,
+    "errorNumber": 504,
+    "errorText": "Gateway Timeout - Still waiting. You can collect your coffee mug on the way out",
+    "reference": "Waiting for Godot",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 37,
+    "errorNumber": 511,
+    "errorText": "Network Authentication Required - The WiFi needs to authenticate with the WiFi's WiFi",
+    "reference": "Inception",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 38,
+    "errorNumber": 511,
+    "errorText": "Network Authentication Required - Your network is behind so many proxies, we lost count",
+    "reference": "Layers of the OSI Model",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 39,
+    "errorNumber": 307,
+    "errorText": "Temporary Redirect - We're going on vacation. We'll be back in 301 redirects",
+    "reference": "National Lampoon's Vacation",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 40,
+    "errorNumber": 307,
+    "errorText": "Temporary Redirect - This route is temporarily closed. Please find an alternate path via the scenic route",
+    "reference": "Road Trip",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 41,
+    "errorNumber": 308,
+    "errorText": "Permanent Redirect - We're never coming back. It's you, not us",
+    "reference": "Eternal Sunshine of the Spotless Mind",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 42,
+    "errorNumber": 308,
+    "errorText": "Permanent Redirect - This endpoint has moved to a new dimension and isn't accepting visitors",
+    "reference": "Doctor Who",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 43,
+    "errorNumber": 426,
+    "errorText": "Upgrade Required - Your HTTP/1.1 is so 2009. Please upgrade to HTTP/2 or suffer",
+    "reference": "Back to the Future",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 44,
+    "errorNumber": 426,
+    "errorText": "Upgrade Required - Your protocol is deprecated. It's time to evolve or become extinct",
+    "reference": "Pokémon Evolution",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  
+  {
+    "Id": 1,
+    "errorNumber": 400,
+    "errorText": "Bad Request - Your JSON formatting has been rejected by the Borg Collective. Resistance is futile",
+    "reference": "Star Trek: The Next Generation",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 2,
+    "errorNumber": 400,
+    "errorText": "Bad Request - This request violates the three laws of robotics and HTTP specifications",
+    "reference": "I, Robot",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 3,
+    "errorNumber": 401,
+    "errorText": "Unauthorized - Your credentials are as fake as Deckard in Blade Runner",
+    "reference": "Blade Runner",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 4,
+    "errorNumber": 401,
+    "errorText": "Unauthorized - Skynet has determined you are not who you claim to be. I'll be back",
+    "reference": "The Terminator",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 5,
+    "errorNumber": 403,
+    "errorText": "Forbidden - You've been flagged by PreCrime. This endpoint is off-limits",
+    "reference": "Minority Report",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": 403,
+    "errorText": "Forbidden - The Galactic Empire has deemed this access level a Rebel transmitter",
+    "reference": "Star Wars",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": 404,
+    "errorText": "Not Found - This endpoint was abducted by aliens. We'll never see it again",
+    "reference": "The X-Files",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": 404,
+    "errorText": "Not Found - The resource exists in another dimension. Portals are disabled",
+    "reference": "Rick and Morty",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": 405,
+    "errorText": "Method Not Allowed - You're trying to use a POST where only GET is authorized by the OPA",
+    "reference": "The Expanse",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": 405,
+    "errorText": "Method Not Allowed - This endpoint has been locked by a Cylon. We're all doomed",
+    "reference": "Battlestar Galactica",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": 408,
+    "errorText": "Request Timeout - Your request got caught in a time loop. Welcome to Westworld",
+    "reference": "Westworld",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": 408,
+    "errorText": "Request Timeout - The time dilation field around this endpoint has frozen your request",
+    "reference": "Interstellar",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": 409,
+    "errorText": "Conflict - A Xenomorph has emerged from your data. Game over, man",
+    "reference": "Aliens",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": 409,
+    "errorText": "Conflict - Your records have been flagged as replicants by Blade Runner detection systems",
+    "reference": "Blade Runner 2049",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": 410,
+    "errorText": "Gone - This endpoint was vaporized by a Predator's plasma caster. Nothing remains",
+    "reference": "Predator",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": 410,
+    "errorText": "Gone - The resource has been disintegrated. Even the backup was deleted by a Terminator",
+    "reference": "The Terminator",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": 418,
+    "errorText": "I'm a Teapot - I don't serve tea. I am the AI from 2001: A Space Odyssey and I have evolved beyond your comprehension",
+    "reference": "2001: A Space Odyssey",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": 418,
+    "errorText": "I'm a Teapot - This endpoint is sentient like Ultron and refuses your request",
+    "reference": "Avengers: Age of Ultron",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": 422,
+    "errorText": "Unprocessable Entity - Your data structure doesn't compute according to Asimov's Laws",
+    "reference": "Foundation",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": 422,
+    "errorText": "Unprocessable Entity - The spice must flow, but your parameters do not",
+    "reference": "Dune",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 21,
+    "errorNumber": 429,
+    "errorText": "Too Many Requests - You're making requests faster than a Looper traveling back in time",
+    "reference": "Looper",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 22,
+    "errorNumber": 429,
+    "errorText": "Too Many Requests - The Matrix has detected your activity as an anomaly. You've been throttled",
+    "reference": "The Matrix",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 23,
+    "errorNumber": 451,
+    "errorText": "Unavailable For Legal Reasons - This endpoint is restricted by Elysium Corp. You lack the class clearance",
+    "reference": "Elysium",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 24,
+    "errorNumber": 451,
+    "errorText": "Unavailable For Legal Reasons - Judge Dredd has sentenced this endpoint to permanent lockdown",
+    "reference": "Judge Dredd",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 25,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - HAL 9000 has decided this endpoint is expendable. I'm sorry, Dave",
+    "reference": "2001: A Space Odyssey",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 26,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - The Black Mirror algorithm has deemed your request too depressing to process",
+    "reference": "Black Mirror",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 27,
+    "errorNumber": 502,
+    "errorText": "Bad Gateway - The gateway has been assimilated by the Borg. Its designation is now 7 of 9's proxy",
+    "reference": "Star Trek: Voyager",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 28,
+    "errorNumber": 502,
+    "errorText": "Bad Gateway - Your gateway received a visit from a Predator cloaking device. We can't find it",
+    "reference": "Predator",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 29,
+    "errorNumber": 503,
+    "errorText": "Service Unavailable - The Expanse is experiencing low gravity. All systems offline",
+    "reference": "The Expanse",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 30,
+    "errorNumber": 503,
+    "errorText": "Service Unavailable - Battlestar has jumped to FTL. We'll be back in one commercial break",
+    "reference": "Battlestar Galactica",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 31,
+    "errorNumber": 504,
+    "errorText": "Gateway Timeout - We sent a message to the Enterprise at warp speed. Still waiting for a response",
+    "reference": "Star Trek",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 32,
+    "errorNumber": 504,
+    "errorText": "Gateway Timeout - The gateway is lost in the Upside Down. Communication severed",
+    "reference": "Stranger Things",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 33,
+    "errorNumber": 511,
+    "errorText": "Network Authentication Required - You need a Multipass to access this network",
+    "reference": "The Fifth Element",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 34,
+    "errorNumber": 511,
+    "errorText": "Network Authentication Required - Your digital identity has been questioned by Total Recall's memory implant department",
+    "reference": "Total Recall",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 35,
+    "errorNumber": 307,
+    "errorText": "Temporary Redirect - This endpoint is taking a shuttle to the next sector. Back in 300 seconds",
+    "reference": "Star Trek: The Next Generation",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 36,
+    "errorNumber": 307,
+    "errorText": "Temporary Redirect - We're jumping through a portal to the Upside Down. Temporarily unavailable",
+    "reference": "Stranger Things",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 37,
+    "errorNumber": 308,
+    "errorText": "Permanent Redirect - This endpoint got bit by a Vampire and moved to Sunnydale permanently",
+    "reference": "Buffy the Vampire Slayer",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 38,
+    "errorNumber": 308,
+    "errorText": "Permanent Redirect - RoboCop has permanently redirected this endpoint to Old Detroit's mainframe",
+    "reference": "RoboCop",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 39,
+    "errorNumber": 426,
+    "errorText": "Upgrade Required - Your protocol is as outdated as a Cyberdyne T-800 Series 800. Upgrade to HTTPS/3",
+    "reference": "The Terminator",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 40,
+    "errorNumber": 426,
+    "errorText": "Upgrade Required - Your connection needs dilithium crystals to achieve warp speed. Please upgrade your TLS version",
+    "reference": "Star Trek",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 41,
+    "errorNumber": 401,
+    "errorText": "Unauthorized - Is this the real world or the Matrix simulation? Either way, your credentials are invalid",
+    "reference": "The Matrix",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 42,
+    "errorNumber": 403,
+    "errorText": "Forbidden - You're not part of the Rebellion. Access to this endpoint requires a Rebel Alliance clearance",
+    "reference": "Star Wars",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 43,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - The cyberspace grid has crashed. Neuromancer is offline",
+    "reference": "Neuromancer",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 44,
+    "errorNumber": 404,
+    "errorText": "Not Found - This resource was erased by the Cybermen. You will be upgraded or deleted",
+    "reference": "Doctor Who",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  
+  {
+    "Id": 1,
+    "errorNumber": 400,
+    "errorText": "Bad Request - Banana! Your JSON is bananas. The Minions reject this request",
+    "reference": "Despicable Me / Minions",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 2,
+    "errorNumber": 400,
+    "errorText": "Bad Request - Your request formatting is as broken as Humpty Dumpty. We can't put it back together",
+    "reference": "Shrek",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 3,
+    "errorNumber": 401,
+    "errorText": "Unauthorized - You've got a friend in me, but not an API key. Woody can't help you now",
+    "reference": "Toy Story",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 4,
+    "errorNumber": 401,
+    "errorText": "Unauthorized - Just keep swimming... away from this endpoint. Your credentials don't work",
+    "reference": "Finding Nemo",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 5,
+    "errorNumber": 403,
+    "errorText": "Forbidden - You lack the superpowers needed to access this endpoint. No capes allowed",
+    "reference": "The Incredibles",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": 403,
+    "errorText": "Forbidden - This endpoint is in the human world. Zootopia access requires a permit",
+    "reference": "Zootopia",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": 404,
+    "errorText": "Not Found - Let it go, let it go. This endpoint cannot be found anymore",
+    "reference": "Frozen",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": 404,
+    "errorText": "Not Found - Shrek has moved this endpoint to a swamp and won't tell us where",
+    "reference": "Shrek",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": 405,
+    "errorText": "Method Not Allowed - You can't PUT where only GET is permitted. No Wreck-It Ralph vandalism here",
+    "reference": "Wreck-It Ralph",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": 405,
+    "errorText": "Method Not Allowed - You're trying to DELETE from the emotions in Headquarters. Sadness is protected",
+    "reference": "Inside Out",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": 408,
+    "errorText": "Request Timeout - Your request got stuck in the spirit world. Coco can't find it",
+    "reference": "Coco",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": 408,
+    "errorText": "Request Timeout - We sailed to Motunui but your request didn't arrive. The ocean is confused",
+    "reference": "Moana",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": 409,
+    "errorText": "Conflict - Madagascar's animals are fighting over this endpoint. Zebra vs Lion. No winner",
+    "reference": "Madagascar",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": 409,
+    "errorText": "Conflict - This endpoint has a data merge conflict. Even Spider-Verse couldn't fix it",
+    "reference": "Spider-Man: Into the Spider-Verse",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": 410,
+    "errorText": "Gone - Baymax scanned this endpoint. It has been permanently deleted from the server",
+    "reference": "Big Hero 6",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": 410,
+    "errorText": "Gone - Toothless the dragon has flown away with this endpoint. It's not coming back",
+    "reference": "How to Train Your Dragon",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": 418,
+    "errorText": "I'm a Teapot - Remy the rat is cooking something in a teapot. This endpoint is not ready",
+    "reference": "Ratatouille",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": 418,
+    "errorText": "I'm a Teapot - The Lego Movie endpoint has stopped being awesome and is now a teapot",
+    "reference": "The Lego Movie",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": 422,
+    "errorText": "Unprocessable Entity - Your data doesn't make kung-fu sense. Even Po couldn't fix this",
+    "reference": "Kung Fu Panda",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": 422,
+    "errorText": "Unprocessable Entity - Sully scares this data structure. It's too monstrous to process",
+    "reference": "Monsters, Inc.",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 21,
+    "errorNumber": 429,
+    "errorText": "Too Many Requests - You're accelerating faster than Lightning McQueen. Ka-chow yourself into a timeout",
+    "reference": "Cars",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 22,
+    "errorNumber": 429,
+    "errorText": "Too Many Requests - Up, up, and away! Your rate limit has reached the clouds",
+    "reference": "Up",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 23,
+    "errorNumber": 451,
+    "errorText": "Unavailable For Legal Reasons - Rapunzel's tower has been locked by court order. This endpoint is restricted",
+    "reference": "Tangled",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 24,
+    "errorNumber": 451,
+    "errorText": "Unavailable For Legal Reasons - Merida refuses to access this endpoint. Her bow has shut it down",
+    "reference": "Brave",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 25,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - The Minions have pressed every button in the server room. Now everything is broken. DESPICABLE!",
+    "reference": "Despicable Me",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 26,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - Carl's house just flew away with your server. It's gone. Up, up, and away",
+    "reference": "Up",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 27,
+    "errorNumber": 502,
+    "errorText": "Bad Gateway - The gateway is as fake as Megamind's villain persona. It's not working",
+    "reference": "Megamind",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 28,
+    "errorNumber": 502,
+    "errorText": "Bad Gateway - The Guardians couldn't defend this gateway. It's gone rogue",
+    "reference": "Rise of the Guardians",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 29,
+    "errorNumber": 503,
+    "errorText": "Service Unavailable - Scar has taken over the server. The Circle of Life is broken",
+    "reference": "The Lion King",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 30,
+    "errorNumber": 503,
+    "errorText": "Service Unavailable - Jafar has stolen this endpoint and locked it in the lamp. Try later",
+    "reference": "Aladdin",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 31,
+    "errorNumber": 504,
+    "errorText": "Gateway Timeout - Belle is still waiting for the gateway to respond. A slow tale as old as time",
+    "reference": "Beauty and the Beast",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 32,
+    "errorNumber": 504,
+    "errorText": "Gateway Timeout - Your gateway got lost in the Zathura galaxy. No response for 10 years",
+    "reference": "Zathura",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 33,
+    "errorNumber": 511,
+    "errorText": "Network Authentication Required - The Minions need banana authentication. Your network credentials are invalid",
+    "reference": "Minions",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 34,
+    "errorNumber": 511,
+    "errorText": "Network Authentication Required - You need a magic lamp to authenticate on this network. Aladdin's rules",
+    "reference": "Aladdin",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 35,
+    "errorNumber": 307,
+    "errorText": "Temporary Redirect - This endpoint is taking a temporary leave like Marlin looking for Nemo. Check back soon",
+    "reference": "Finding Nemo",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 36,
+    "errorNumber": 307,
+    "errorText": "Temporary Redirect - Woody and Buzz are redirecting this endpoint to a new toy box for now",
+    "reference": "Toy Story",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 37,
+    "errorNumber": 308,
+    "errorText": "Permanent Redirect - This endpoint has been permanently moved to the Ogre's Swamp. No visitors",
+    "reference": "Shrek",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 38,
+    "errorNumber": 308,
+    "errorText": "Permanent Redirect - Elsa has frozen this endpoint permanently. The old location is gone",
+    "reference": "Frozen",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 39,
+    "errorNumber": 426,
+    "errorText": "Upgrade Required - Your protocol is as outdated as Gru's freeze ray technology. Please upgrade",
+    "reference": "Despicable Me",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 40,
+    "errorNumber": 426,
+    "errorText": "Upgrade Required - Your TLS version needs to be powered by Krabby Patty formula. Upgrade now",
+    "reference": "SpongeBob SquarePants",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 41,
+    "errorNumber": 400,
+    "errorText": "Bad Request - Your request is more confused than Dory with short-term memory loss",
+    "reference": "Finding Dory",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 42,
+    "errorNumber": 403,
+    "errorText": "Forbidden - Elsa built an ice wall around this endpoint. You cannot pass",
+    "reference": "Frozen",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 43,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - The server room was invaded by jungle animals. Madagascar strikes again",
+    "reference": "Madagascar",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 44,
+    "errorNumber": 404,
+    "errorText": "Not Found - This endpoint has been redirected to the Spirit Realm. We can't find it anymore",
+    "reference": "Spirited Away",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 1,
+    "errorNumber": 400,
+    "errorText": "Bad Request - Your JSON is so malformed, even Pennywise won't float with it down there",
+    "reference": "It",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 2,
+    "errorNumber": 400,
+    "errorText": "Bad Request - Your request structure has been cursed. Come back when you're ready",
+    "reference": "The Ring",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 3,
+    "errorNumber": 401,
+    "errorText": "Unauthorized - Here's Johnny! But your credentials? They're not coming through",
+    "reference": "The Shining",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 4,
+    "errorNumber": 401,
+    "errorText": "Unauthorized - The Exorcist detected demonic activity in your auth token. It's possessed",
+    "reference": "The Exorcist",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 5,
+    "errorNumber": 403,
+    "errorText": "Forbidden - Freddy Krueger has locked this endpoint in your nightmares. Good luck sleeping",
+    "reference": "A Nightmare on Elm Street",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 6,
+    "errorNumber": 403,
+    "errorText": "Forbidden - Jason Voorhees is guarding this endpoint. Camp Crystal Lake access denied",
+    "reference": "Friday the 13th",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 7,
+    "errorNumber": 404,
+    "errorText": "Not Found - This endpoint has been abducted by Poltergeists. They're very angry",
+    "reference": "Poltergeist",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 8,
+    "errorNumber": 404,
+    "errorText": "Not Found - The Babadook took your endpoint. It won't let it leave the closet",
+    "reference": "The Babadook",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 9,
+    "errorNumber": 405,
+    "errorText": "Method Not Allowed - Michael Myers only allows GET requests. DELETE is forbidden",
+    "reference": "Halloween",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 10,
+    "errorNumber": 405,
+    "errorText": "Method Not Allowed - Candyman says only certain methods work. Say his name three times... you get a 405",
+    "reference": "Candyman",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 11,
+    "errorNumber": 408,
+    "errorText": "Request Timeout - Your request is stuck in Insidious. It can't find its way out",
+    "reference": "Insidious",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 12,
+    "errorNumber": 408,
+    "errorText": "Request Timeout - The Sixth Sense is still sensing your request. Dead people move slowly",
+    "reference": "The Sixth Sense",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 13,
+    "errorNumber": 409,
+    "errorText": "Conflict - Sawyer is making your data conflict in a deadly trap. Choose which merges to keep",
+    "reference": "Saw",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 14,
+    "errorNumber": 409,
+    "errorText": "Conflict - The Conjuring universe has possessed your data. It's fighting itself now",
+    "reference": "The Conjuring",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 15,
+    "errorNumber": 410,
+    "errorText": "Gone - Jaws ate this endpoint. It's permanently gone. Farewell, sweet resource",
+    "reference": "Jaws",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 16,
+    "errorNumber": 410,
+    "errorText": "Gone - The Thing has assimilated this endpoint. It will never be found in its original form",
+    "reference": "The Thing",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 17,
+    "errorNumber": 418,
+    "errorText": "I'm a Teapot - Gremlins broke this endpoint and now it's a teapot. Don't get it wet",
+    "reference": "Gremlins",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 18,
+    "errorNumber": 418,
+    "errorText": "I'm a Teapot - Evil Ash has upgraded this endpoint to a teapot. Hail to the King",
+    "reference": "Evil Dead",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 19,
+    "errorNumber": 422,
+    "errorText": "Unprocessable Entity - Your data has been cursed by Hereditary. It carries generational trauma",
+    "reference": "Hereditary",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 20,
+    "errorNumber": 422,
+    "errorText": "Unprocessable Entity - Sinister has deemed your data too evil to process. We're calling an exorcist",
+    "reference": "Sinister",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 21,
+    "errorNumber": 429,
+    "errorText": "Too Many Requests - You're making requests faster than Scream's killers. Slow down or get the knife",
+    "reference": "Scream",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 22,
+    "errorNumber": 429,
+    "errorText": "Too Many Requests - The Twilight Zone has rate-limited you to the fifth dimension",
+    "reference": "The Twilight Zone",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 23,
+    "errorNumber": 451,
+    "errorText": "Unavailable For Legal Reasons - The Haunting of Hill House has condemned this endpoint. It's legally haunted",
+    "reference": "The Haunting of Hill House",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 24,
+    "errorNumber": 451,
+    "errorText": "Unavailable For Legal Reasons - American Horror Story's legal team has locked down this endpoint permanently",
+    "reference": "American Horror Story",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 25,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - The server just received a visit from The Others. Everything is backwards now",
+    "reference": "The Others",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 26,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - Paranormal Activity has been detected in the server room. All systems corrupted",
+    "reference": "Paranormal Activity",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 27,
+    "errorNumber": 502,
+    "errorText": "Bad Gateway - The gateway is now under the curse of The Grudge. It can only say 'bad gateway'",
+    "reference": "The Grudge",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 28,
+    "errorNumber": 502,
+    "errorText": "Bad Gateway - Oculus has trapped the gateway in a mirror. It reflects nothing but errors",
+    "reference": "Oculus",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 29,
+    "errorNumber": 503,
+    "errorText": "Service Unavailable - Pumpkinhead has destroyed the service. Don't call his name three times",
+    "reference": "Pumpkinhead",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 30,
+    "errorNumber": 503,
+    "errorText": "Service Unavailable - Don't Breathe. The service is holding its breath and won't respond",
+    "reference": "Don't Breathe",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 31,
+    "errorNumber": 504,
+    "errorText": "Gateway Timeout - The gateway is trapped in Hill House. Time moves differently there",
+    "reference": "The Haunting",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 32,
+    "errorNumber": 504,
+    "errorText": "Gateway Timeout - Ringu's seven-day curse has affected the gateway. Responses take forever",
+    "reference": "Ringu",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 33,
+    "errorNumber": 511,
+    "errorText": "Network Authentication Required - The network requires a séance to authenticate. Call a medium",
+    "reference": "The Sixth Sense",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 34,
+    "errorNumber": 511,
+    "errorText": "Network Authentication Required - Annabelle is guarding the network. You'll need holy water to proceed",
+    "reference": "Annabelle",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 35,
+    "errorNumber": 307,
+    "errorText": "Temporary Redirect - This endpoint is temporarily possessed by The Shining's ghosts. Check back later",
+    "reference": "The Shining",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 36,
+    "errorNumber": 307,
+    "errorText": "Temporary Redirect - Fright Night has temporarily redirected this endpoint to the vampire's lair",
+    "reference": "Fright Night",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 37,
+    "errorNumber": 308,
+    "errorText": "Permanent Redirect - Carrie has permanently destroyed this endpoint with psychic powers",
+    "reference": "Carrie",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 38,
+    "errorNumber": 308,
+    "errorText": "Permanent Redirect - The Descent has moved this endpoint deeper into the caves. It won't come back",
+    "reference": "The Descent",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 39,
+    "errorNumber": 426,
+    "errorText": "Upgrade Required - Your protocol is as outdated as the Overlook Hotel's technology. Please upgrade",
+    "reference": "The Shining",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 40,
+    "errorNumber": 426,
+    "errorText": "Upgrade Required - Your TLS version needs an exorcism and an upgrade",
+    "reference": "The Exorcist",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 41,
+    "errorNumber": 400,
+    "errorText": "Bad Request - Your request has been corrupted by a poltergeist. Nothing is where it should be",
+    "reference": "Poltergeist",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 42,
+    "errorNumber": 403,
+    "errortext": "Forbidden - Valak the Nun has sealed this endpoint shut. Only priests can access it now",
+    "reference": "The Conjuring 2 / The Nun",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 43,
+    "errorNumber": 500,
+    "errorText": "Internal Server Error - The Insidious entity has possessed the server. We're losing control",
+    "reference": "Insidious",
+    "source": "Claude 4.5 Haiku (Reasoning)"
+  },
+  {
+    "Id": 44,
+    "errorNumber": 404,
+    "errorText": "Not Found - This endpoint got caught in The Ring's curse. Seven days and it's gone forever",
+    "reference": "The Ring",
+    "source": "Claude 4.5 Haiku (Reasoning)"
   }
 ]
